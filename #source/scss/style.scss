@@ -5,74 +5,21 @@
 //<ШРИФТЫ>===============================================================================================
 
 //<Подключаем шрифты>=======================================================================================
-@font-face { 
-	font-family: "Lato";
-	src: url("../fonts/Lato-Light.eot");
-	src: local("☺"), url("../fonts/Lato-Light.woff") format("woff"), url("../fonts/Lato-Light.ttf") format("truetype"),
-	url("../fonts/Lato-Light.svg") format("svg");
-	font-weight: 300;
-	font-style: normal;   
-}
-
-@font-face {
-	font-family: "Lato";
-	src: url("../fonts/Lato-Regular.eot");
-	src: local("☺"), url("../fonts/Lato-Regular.woff") format("woff"), url("../fonts/Lato-Regular.ttf") format("truetype"),
-	url("../fonts/Lato-Regular.svg") format("svg");
-	font-weight: 400;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: "Lato";
-	src: url("../fonts/Lato-Medium.eot");
-	src: local("☺"), url("../fonts/Lato-Medium.woff") format("woff"), url("../fonts/Lato-Medium.ttf") format("truetype"),
-	url("../fonts/Lato-Medium.svg") format("svg");
-	font-weight: 500;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: "Lato";
-	src: url("../fonts/Lato-Semibold.eot");
-	src: local("☺"), url("../fonts/Lato-Semibold.woff") format("woff"),
-	url("../fonts/Lato-Semibold.ttf") format("truetype"), url("../fonts/Lato-Semibold.svg") format("svg");
-	font-weight: 600;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: "Lato";
-	src: url("fonts/Lato-Bold.eot");
-	src: local("☺"), url("../fonts/Lato-Bold.woff") format("woff"), url("../fonts/Lato-Bold.ttf") format("truetype"),
-	url("../fonts/Lato-Bold.svg") format("svg");
-	font-weight: 700;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: "Lato";
-	src: url("../fonts/Lato-Heavy.eot");
-	src: local("☺"), url("../fonts/Lato-Heavy.woff") format("woff"), url("../fonts/Lato-Heavy.ttf") format("truetype"),
-	url("../fonts/Lato-Heavy.svg") format("svg");
-	font-weight: 900;
-	font-style: normal;
-}
-//</Подключаем шрифты>=======================================================================================
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Caption:wght@400;700&display=swap');
 
 //<Иконочные шрифты>==========================================================================================
 
 //</Иконочные шрифты>==========================================================================================
 
 //<Шрифт по умолчанию>==========================================================================================
-$fontfamily: "";
+$fontfamily: "PT Sans Caption";
 //</Шрифт по умолчанию>==========================================================================================
 
 //</ШРИФТЫ>=======================================================================================================
 
 //<ПЕРЕМЕННЫЕ>===========================================================================================================
 $minwidth: 320px;
-$mw: 1170;
+$mw: 1440;
 $md1: $mw + 12;
 $md2: 991.98;
 $md3: 767.98;
@@ -82,11 +29,12 @@ $md4: 479.98;
 //<ОБНУЛЕНИЕ, ОБЩИЕ ПАРАМЕТРЫ>===============================================================================================
 @import "null.scss";
 body {
-	color: #1a1818;
+	color: #161615;
 	font-size: 14px;
 	font-weight: 400;
 	a {
-		color: #1a1818;
+		font-family: "PT Sans Caption";
+		color: #161615;
 	}
 	&.lock {
 		overflow: hidden;
@@ -95,22 +43,22 @@ body {
 //</ОБНУЛЕНИЕ, ОБЩИЕ ПАРАМЕТРЫ>===============================================================================================
 
 //<ЗАГОЛОВКИ>=================================================================================================================
-// h1 {
-// 	font-size: 35px;
-// 	font-weight: 500;
-// 	line-height: 38px;}
-// h2 {
-// 	font-size: 32px;
-// 	font-weight: 500;
-// 	line-height: 38px;}
-// h3 {
-// 	font-size: 28px;
-// 	font-weight: 500;
-// 	line-height: 38px;}
-// h4 {
-// 	font-size: 25px;
-// 	font-weight: 500;
-// 	line-height: 38px;}
+h1 {
+	font-size: 46px;
+	font-weight: 700;
+	line-height: 55.2px;}
+h2 {
+	font-size: 46px;
+	font-weight: 700;
+	line-height: 55.2px;}
+h3 {
+	font-size: 26px;
+	font-weight: 700;
+	line-height: 31.2px;}
+h4 {
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 28.8px;}
 //<ЗАГОЛОВКИ>=================================================================================================================
 
 //<ОБОЛОЧКА>===========================================================================================================

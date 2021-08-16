@@ -12,15 +12,15 @@
 	justify-content: center;
 	align-items: center;
 	text-align: center;
-	padding: 6px 8px;
-	min-width: 144px;
-	min-height: 36px;
-	font-family: 'Lato';
-	font-size: 12px;
+	padding: 6px 10px;
+	min-width: 249px;
+	min-height: 40px;
+	// font-family: 'Lato';
+	font-size: 18px;
 	font-weight: 400;
-	color: #000;
-	background: #FFE417;
-	border-radius: 5px;
+	color: #fff;
+	background: #C10010;
+	// border-radius: 5px;
 	&:hover{}
 	&.fw{width: 100%;}  
 }
@@ -101,11 +101,12 @@ input[type=text],input[type=email],input[type=tel],textarea{-webkit-appearance:n
 input[type=range]{cursor: pointer;}
 .input, .input__phone{
 	// border: 1px solid #000;
-	border-radius: 25px;
+	// border-radius: 25px;
 	width: 100%;
 	display: flex;
-	height: 37px;
-	padding: 0px 17px;
+	font-size: 16px;
+	height: 40px;
+	padding: 0px 15px;
 	&.focus{}
 	&.err{}
 }
@@ -114,10 +115,10 @@ textarea.input{
 	padding: 5px 10px;
 }
 // Стилизация placeholder 
-::-webkit-input-placeholder {color: #8584847a;}
-::-moz-placeholder          {color: #8584847a;}/* Firefox 19+ */
-:-moz-placeholder           {color: #8584847a;}/* Firefox 18- */
-:-ms-input-placeholder      {color: #8584847a;}
+::-webkit-input-placeholder {color: #161615;}
+::-moz-placeholder          {color: #161615;}/* Firefox 19+ */
+:-moz-placeholder           {color: #161615;}/* Firefox 18- */
+:-ms-input-placeholder      {color: #161615;}
 //</INPUT>====================================================================================================
 
 //<INPUT (+ -)>====================================================================================================
