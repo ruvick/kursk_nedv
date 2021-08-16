@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="23.928" height="20.16" viewBox="0 0 23.928 20.16">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.276" y1="-0.612" x2="0.998" y2="2.697" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#c10010"/>
+      <stop offset="0.117" stop-color="#a00a24"/>
+      <stop offset="0.343" stop-color="#671b49"/>
+      <stop offset="0.553" stop-color="#3a2966"/>
+      <stop offset="0.739" stop-color="#1a337a"/>
+      <stop offset="0.894" stop-color="#073987"/>
+      <stop offset="1" stop-color="#003c8c"/>
+    </linearGradient>
+  </defs>
+  <g id="Сгруппировать_93" data-name="Сгруппировать 93" transform="translate(-450.632 -2250.768)">
+    <path id="Контур_84" data-name="Контур 84" d="M472.8,2250.768H452.4a1.764,1.764,0,0,0-1.764,1.764v13.242a1.764,1.764,0,0,0,1.764,1.764h6.428l3.119,3.119a.923.923,0,0,0,1.306,0l3.119-3.119H472.8a1.764,1.764,0,0,0,1.764-1.764v-13.242A1.764,1.764,0,0,0,472.8,2250.768Z" fill="url(#linear-gradient)"/>
+    <g id="Сгруппировать_92" data-name="Сгруппировать 92">
+      <g id="Сгруппировать_91" data-name="Сгруппировать 91">
+        <path id="Контур_85" data-name="Контур 85" d="M467.909,2257.416a2.763,2.763,0,0,0-5.313-1.063,2.763,2.763,0,0,0-5.313,1.063q0,.062,0,.123h0c0,4.21,5.313,6.595,5.313,6.595s5.313-2.385,5.313-6.595h0Q467.909,2257.478,467.909,2257.416Z" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>

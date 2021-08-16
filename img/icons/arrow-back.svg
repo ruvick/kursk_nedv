@@ -1,3 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="8" height="12" viewBox="0 0 8 12">
-  <image id="chevron-right" width="8" height="12" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAMCAYAAABfnvydAAAABHNCSVQICAgIfAhkiAAAAE5JREFUGFdjZMAOOhgYGPgZGBiyGLHIgyTLoeL26AqQJbMYGBimIyvAkASZAlOAVRKmAKck0QpACvFaAfMpXkfiVEQooCyxKYC5CURXAACiTRSEItfncgAAAABJRU5ErkJggg=="/>
+<svg xmlns="http://www.w3.org/2000/svg" width="8.875" height="19.521" viewBox="0 0 8.875 19.521">
+  <g id="Сгруппировать_38" data-name="Сгруппировать 38" transform="translate(-1680.25 -1029.834)">
+    <line id="Линия_10" data-name="Линия 10" x2="6.756" y2="8.667" transform="translate(1681.309 1030.894)" fill="none" stroke="#003c8c" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.51"/>
+    <line id="Линия_11" data-name="Линия 11" x1="6.756" y2="8.667" transform="translate(1681.309 1039.628)" fill="none" stroke="#003c8c" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.51"/>
+  </g>
 </svg>
