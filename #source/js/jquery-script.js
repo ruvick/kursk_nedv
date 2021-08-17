@@ -35,18 +35,18 @@ if (isMobile.iOS()) {
 
 
 // Открытие ПК меню при наведении до 1024px
-if (document.body.clientWidth > 1024) {
-	function hideMenu() {
-		$('.mob-menu').slideUp(600);
-	}
-	function showMenu() {
-		$('.mob-menu').slideDown(600);
-	}
-	$(document).ready(function () {
-		$(".menu__catalogy").on("mouseover", showMenu);
-		$(".header__menu").on("mouseleave", hideMenu);
-	});
-}
+// if (document.body.clientWidth > 1024) {
+// 	function hideMenu() {
+// 		$('.mob-menu').slideUp(600);
+// 	}
+// 	function showMenu() {
+// 		$('.mob-menu').slideDown(600);
+// 	}
+// 	$(document).ready(function () {
+// 		$(".menu__catalogy").on("mouseover", showMenu);
+// 		$(".header__menu").on("mouseleave", hideMenu);
+// 	});
+// }
 
 
 // // Slider на главной

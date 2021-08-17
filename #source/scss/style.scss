@@ -76,7 +76,7 @@ h4 {
 }
 .page {
 	flex: 1 1 auto;  
-	padding: 35px 0;
+	// padding: 35px 0;
 }
 //</ОБОЛОЧКА>===========================================================================================================
 
@@ -85,6 +85,8 @@ h4 {
 	max-width: $mw + px;
 	margin: 0 auto;
 	width: 100%;
+	position: relative;
+	z-index: 50;
 	// @media (max-width: $md1+px) {
 	// 	// max-width: 970px;
 	// 	padding: 0 10px;
@@ -123,6 +125,120 @@ h4 {
 //</ПОДКЛЮЧЕНИЕ ФАЙЛОВ СТИЛЕЙ СТРАНИЦ И ЭЛЕМЕНТОВ>====================================================================================================
 
 //<ОСНОВНОЙ БЛОК>=====================================================================================================================================
+.info {
+	position: relative;
+	padding: 62px 0 126px 0;
+	background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: cover;
+	background-image: url('../img/header-bg.jpg');
+}
+
+.info h1 {
+	text-align: center;
+	color: #fff;
+	margin-bottom: 47px;
+}
+
+.info__item {
+	justify-content: space-between;
+	margin-bottom: 23px;
+}
+
+.info__item-link {
+	flex: 0 1 340px;
+	height: 40px;
+	font-size: 22px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 10px;
+	background: #E8E8E8;  
+}
+
+
+.info__block-tabs {
+	padding: 21px 37px 43px 40px;
+	background: #fff;
+}
+
+.info__block-tabs .block__nav {
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 2.5px solid #BABABA;
+}
+
+.info__block-tabs .tab__navitem {
+	flex: 0 1 18%;
+	text-align: center;
+	font-size: 22px;
+	line-height: 26.4px;
+	cursor: pointer;
+	padding-bottom: 7px;
+	margin-bottom: -2.5px;
+}
+
+.info__block-tabs .tab__navitem.active {
+	font-weight: 700;
+	border-bottom: 3px solid #000;
+}
+
+.info__block-tabs .tab__item {
+	padding-top: 34px;
+}
+
+.info__form-block {
+	display: flex;
+	flex-direction: column;
+}
+
+.info__form-block-col {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	margin-bottom: 48px;
+}
+
+.info__form-block-col:last-child {
+	margin-bottom: 0;
+}
+
+.info__form-block-sel {
+	flex: 0 1 200px;
+}
+
+.info__form-block-sub {
+	line-height: 16.8px;
+	margin-bottom: 9px;
+}
+
+.info__form-block-inp {
+	flex: 0 1 235px;
+}
+
+.info__form-block-inp-number {
+	display: flex;
+	justify-content: space-between;
+}
+
+.info__form-block-inp input {
+	flex: 0 0 108px;
+	height: 36px;
+	border: 1px solid #A3A3A3;
+}
+
+.info__form-block-sel_last {
+	flex: 0 1 247px;
+}
+
+.info__form-block-inp-btn {
+	flex: 0 1 345px;
+}
+
+.info__form-block-inp_bottom {
+	flex: 0 1 538px;
+	height: 36px;
+}
 // ==============================================================================================================================================================
 
 //====================================================================================================================================================
