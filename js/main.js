@@ -333,13 +333,25 @@ if (isMobile.iOS()) {
 // }
 
 
-// Slider на главной
+// Slider Актуальные предложения
 $('.topical__slider').slick({
 	arrows: true,
 	dots: false,
 	infinite: true,
 	speed: 1000,
 	slidesToShow: 2,
+	autoplay: true,
+	autoplaySpeed: 1800,
+	adaptiveHeight: true
+});
+
+// Slider Горячие предложения
+$('.slider__hot-deals').slick({
+	arrows: true,
+	dots: false,
+	infinite: true,
+	speed: 1000,
+	slidesToShow: 3.3,
 	autoplay: true,
 	autoplaySpeed: 1800,
 	adaptiveHeight: true
