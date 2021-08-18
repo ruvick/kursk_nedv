@@ -628,9 +628,63 @@ h4 {
 }
 
 // ===============================================================================================================================================================
+.consult-form {
+	padding: 35px 0 25px 0;
+}
 
+.consult-form h2 {
+	text-align: center;
+	margin-bottom: 15px;
+}
 
+.consult-form p {
+	font-size: 16px;
+	font-weight: 700;
+	text-align: center;
+	margin-bottom: 30px;
+}
 
+.consult-form__form-block {
+	position: relative;
+	padding: 75px 22px 22px 39px;
+	background: #C10010;
+	border-radius: 35px;
+}
+
+.consult-form__form-block-img {
+	position: absolute;
+	top: -110%;
+	right: -16%;
+	max-width: 760px;
+	width: 100%;
+	height: 568px;
+}
+
+.consult-form__form-block-img img {
+	max-width: 100%;
+}
+
+.consult-form__form {
+	justify-content: space-between;
+	max-width: 980px;
+	width: 100%;
+	margin-bottom: 35px;
+}
+
+.consult-form__form-input {
+	flex: 0 1 340px;
+	height: 40px;
+}
+
+.consult-form__form-btn {
+	height: 40px;
+}
+
+.consult-form__form-block p {
+	text-align-last: left;
+	color: #fff;
+	margin-bottom: 0;
+}
 
 //</ОСНОВНОЙ БЛОК>====================================================================================================================================
 
