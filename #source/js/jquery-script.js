@@ -49,17 +49,17 @@ if (isMobile.iOS()) {
 // }
 
 
-// // Slider на главной
-// $('.info-sl__slider').slick({
-// 	arrows: false,
-// 	dots: true,
-// 	infinite: true,
-// 	speed: 1000,
-// 	slidesToShow: 1,
-// 	autoplay: true,
-// 	autoplaySpeed: 1800,
-// 	adaptiveHeight: true
-// });
+// Slider на главной
+$('.topical__slider').slick({
+	arrows: true,
+	dots: false,
+	infinite: true,
+	speed: 1000,
+	slidesToShow: 2,
+	autoplay: true,
+	autoplaySpeed: 1800,
+	adaptiveHeight: true
+});
 
 
 // // Slider вертикальный

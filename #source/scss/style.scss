@@ -239,9 +239,122 @@ h4 {
 	flex: 0 1 538px;
 	height: 36px;
 }
+
 // ==============================================================================================================================================================
+.topical {
+	padding: 55px 0 70px 0;
+}
+
+.topical h2 {
+	margin-bottom: 53.5px;
+} 
+
+.topical__row {
+	justify-content: space-between;
+}
+
+.topical__card {
+	position: relative;
+	display: flex;
+  justify-content: flex-end;
+	// flex: 0 1 48.5%;
+	max-width: 698px;
+  width: 100% !important;
+	max-height: 313px;
+	border-radius: 45px;
+	overflow: hidden;
+}
+
+.topical__card img {
+	max-width: 100%;
+}
+
+.topical__position {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 50;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: flex-end;
+	padding: 35px 48px;
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	background-image: url('../img/offers/03.png');
+}
+
+.topical__position_two {
+	background-image: url('../img/offers/04.png');
+}
+
+.topical__position p {
+	font-size: 28px;
+	font-weight: 700;
+	line-height: 33.6px;
+	color: #fff;
+}
+
+.topical__slider.slick-slider .slick-track {
+	justify-content: space-between;
+}
+
+.topical__slider .slick-arrow {
+	position: absolute;
+	top: 45%;
+	width: 43px;
+	height: 43px;
+	font-size: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+	background: #fff;
+	border: 1px solid #D2D1D1;
+	z-index: 50;
+}
+
+.topical__slider .slick-arrow:before {
+	content: '';
+	float: left;
+	width: 7px;
+	height: 15px;
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+.topical__slider .slick-next {
+	left: -15px;
+}
+
+.topical__slider .slick-prev {
+	right: -6px;
+}
+
+.topical__slider .slick-next:before {
+	background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4Ljg3NSIgaGVpZ2h0PSIxOS41MjEiIHZpZXdCb3g9IjAgMCA4Ljg3NSAxOS41MjEiPg0KICA8ZyBpZD0i0KHQs9GA0YPQv9C/0LjRgNC+0LLQsNGC0YxfNDAiIGRhdGEtbmFtZT0i0KHQs9GA0YPQv9C/0LjRgNC+0LLQsNGC0YwgNDAiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0yMzguMzQyIC0xMDI5LjgzNCkiPg0KICAgIDxsaW5lIGlkPSLQm9C40L3QuNGPXzEyIiBkYXRhLW5hbWU9ItCb0LjQvdC40Y8gMTIiIHgxPSI2Ljc1NiIgeTE9IjguNjY3IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgyMzkuNDAyIDEwMzkuNjI4KSIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMDAzYzhjIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIHN0cm9rZS13aWR0aD0iMS41MSIvPg0KICAgIDxsaW5lIGlkPSLQm9C40L3QuNGPXzEzIiBkYXRhLW5hbWU9ItCb0LjQvdC40Y8gMTMiIHkxPSI4LjY2NyIgeDI9IjYuNzU2IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgyMzkuNDAyIDEwMzAuODk0KSIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMDAzYzhjIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIHN0cm9rZS13aWR0aD0iMS41MSIvPg0KICA8L2c+DQo8L3N2Zz4NCg==');
+}
+
+.topical__slider .slick-prev:before {
+	background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4Ljg3NSIgaGVpZ2h0PSIxOS41MjEiIHZpZXdCb3g9IjAgMCA4Ljg3NSAxOS41MjEiPg0KICA8ZyBpZD0i0KHQs9GA0YPQv9C/0LjRgNC+0LLQsNGC0YxfMzgiIGRhdGEtbmFtZT0i0KHQs9GA0YPQv9C/0LjRgNC+0LLQsNGC0YwgMzgiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0xNjgwLjI1IC0xMDI5LjgzNCkiPg0KICAgIDxsaW5lIGlkPSLQm9C40L3QuNGPXzEwIiBkYXRhLW5hbWU9ItCb0LjQvdC40Y8gMTAiIHgyPSI2Ljc1NiIgeTI9IjguNjY3IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxNjgxLjMwOSAxMDMwLjg5NCkiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzAwM2M4YyIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBzdHJva2Utd2lkdGg9IjEuNTEiLz4NCiAgICA8bGluZSBpZD0i0JvQuNC90LjRj18xMSIgZGF0YS1uYW1lPSLQm9C40L3QuNGPIDExIiB4MT0iNi43NTYiIHkyPSI4LjY2NyIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMTY4MS4zMDkgMTAzOS42MjgpIiBmaWxsPSJub25lIiBzdHJva2U9IiMwMDNjOGMiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgc3Ryb2tlLXdpZHRoPSIxLjUxIi8+DQogIDwvZz4NCjwvc3ZnPg0K');
+}
 
 //====================================================================================================================================================
+.choice {
+	padding: 52px 0 72px 0;
+	background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: cover;
+	background-image: url('../img/choose-bg.jpg');
+}
+
+.choice h2 {
+	margin-bottom: 60.5px;
+}
+
+
+
 
 //</ОСНОВНОЙ БЛОК>====================================================================================================================================
 
