@@ -179,8 +179,18 @@ h4 {
 }
 
 .info__block-tabs .tab__navitem.active {
+	position: relative;
 	font-weight: 700;
-	border-bottom: 3px solid #000;
+}
+
+.info__block-tabs .tab__navitem.active:before {
+	content: '';
+	position: absolute;
+  left: 0;
+  bottom: 0;
+	width: 100%;
+	height: 3px;
+	background: linear-gradient(#c10010 0%, #a00a24 11.73%, #671b49 34.34%, #3a2966 55.28%, #1a337a 73.86%, #073987 89.4%, #003c8c 100%);
 }
 
 .info__block-tabs .tab__item {
@@ -647,8 +657,9 @@ h4 {
 .consult-form__form-block {
 	position: relative;
 	padding: 75px 22px 22px 39px;
-	background: #103681;
-	border-radius: 35px;
+	border-radius: 29.12px;
+	background: linear-gradient(#c10010 0%, #a00a24 11.73%, #671b49 34.34%, #3a2966 55.28%, #1a337a 73.86%, #073987 89.4%, #003c8c 100%);
+	opacity: 0.57;
 }
 
 .consult-form__form-block-img {
@@ -718,9 +729,9 @@ h4 {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	width: 40px;
-	height: 40px;
-	background: #253073;
+	width: 39.86px;
+	height: 39.86px;
+	background: linear-gradient(#c10010 0%, #a00a24 11.73%, #671b49 34.34%, #3a2966 55.28%, #1a337a 73.86%, #073987 89.4%, #003c8c 100%);
 	border-radius: 50%;
 	overflow: hidden;
 }
@@ -784,6 +795,7 @@ h4 {
 
 .team__btn {
 	display: flex;
+	height: 40px;
 	margin: 0 auto;
 	background: #003C8C;
 }
