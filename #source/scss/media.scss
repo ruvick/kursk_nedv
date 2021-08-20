@@ -38,6 +38,10 @@
 		flex: 0 1 32%; }
 	.consult-form__form-block-img {
 		display: none; }
+	.team__card {
+		flex: 0 1 24%; }
+	.team__card-descp {
+		padding: 15px 15px 35px 15px; }
 }
 
 @media (max-width: 1150px) {
@@ -122,6 +126,13 @@
 		flex: 0 1 49%; 
 		margin-bottom: 15px;
 	}
+	.team__row {
+    flex-wrap: wrap; }
+	.team__card {
+		flex: 0 1 49%; 
+		margin-bottom: 15px; }
+	.team__card-img img {
+		object-fit: fill; }
 }
 
 @media (max-width: 768px) {
@@ -247,12 +258,20 @@
 	.reviews__card {
 		flex: 0 1 100%; 
 		padding: 0 25px 25px 25px; }
+	.team__row {
+		justify-content: center; }
+	.team__card {
+		flex: 0 1 80%; }
+	.team__card-descp {
+		padding: 15px 25px 35px 25px; }
 }
 
 @media (max-width: 480px) {
 	.consult-form__form-input {
 		flex: 0 1 100%;	}
 	.consult-form__form-btn {
+		flex: 0 1 100%; }
+	.team__card {
 		flex: 0 1 100%; }
 }
 
@@ -264,6 +283,8 @@
 		margin-right: 15px; }
 	.consult-form__form-block {
 		padding: 35px 22px 22px 22px; }
+	.team__btn {
+		width: 100%; }
 }
 
 @media (max-width: 414px) {

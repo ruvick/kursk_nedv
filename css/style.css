@@ -2025,7 +2025,13 @@ body.ie .ibg img {
     -ms-flex: 0 1 32%;
     flex: 0 1 32%; }
   .consult-form__form-block-img {
-    display: none; } }
+    display: none; }
+  .team__card {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 24%;
+    flex: 0 1 24%; }
+  .team__card-descp {
+    padding: 15px 15px 35px 15px; } }
 
 @media (max-width: 1150px) {
   .advant__row {
@@ -2113,7 +2119,18 @@ body.ie .ibg img {
     -webkit-box-flex: 0;
     -ms-flex: 0 1 49%;
     flex: 0 1 49%;
-    margin-bottom: 15px; } }
+    margin-bottom: 15px; }
+  .team__row {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap; }
+  .team__card {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 49%;
+    flex: 0 1 49%;
+    margin-bottom: 15px; }
+  .team__card-img img {
+    -o-object-fit: fill;
+    object-fit: fill; } }
 
 @media (max-width: 768px) {
   .header {
@@ -2272,7 +2289,17 @@ body.ie .ibg img {
     -webkit-box-flex: 0;
     -ms-flex: 0 1 100%;
     flex: 0 1 100%;
-    padding: 0 25px 25px 25px; } }
+    padding: 0 25px 25px 25px; }
+  .team__row {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+  .team__card {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 80%;
+    flex: 0 1 80%; }
+  .team__card-descp {
+    padding: 15px 25px 35px 25px; } }
 
 @media (max-width: 480px) {
   .consult-form__form-input {
@@ -2280,6 +2307,10 @@ body.ie .ibg img {
     -ms-flex: 0 1 100%;
     flex: 0 1 100%; }
   .consult-form__form-btn {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 100%;
+    flex: 0 1 100%; }
+  .team__card {
     -webkit-box-flex: 0;
     -ms-flex: 0 1 100%;
     flex: 0 1 100%; } }
@@ -2293,7 +2324,9 @@ body.ie .ibg img {
     display: flex;
     margin-right: 15px; }
   .consult-form__form-block {
-    padding: 35px 22px 22px 22px; } }
+    padding: 35px 22px 22px 22px; }
+  .team__btn {
+    width: 100%; } }
 
 @media (max-width: 414px) {
   .info__block-tabs .tab__navitem {
