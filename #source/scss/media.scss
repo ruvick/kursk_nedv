@@ -60,6 +60,11 @@
 		flex: 1 1 auto; }
 }
 
+@media (max-width: 1040px) {
+	.footer__menu {
+    margin-bottom: 35px; }
+}
+
 @media (max-width: 1024px) {
 	.topical__card {
 		margin-right: 15px; }
@@ -84,7 +89,7 @@
 	.info__form-block-inp {
 		margin-bottom: 10px; }
 	.info__form-block-col:last-child	.info__form-block-inp {
-			margin-bottom: 0; }
+		margin-bottom: 0; }
 }
 
 @media (max-width: 960px) {
@@ -179,6 +184,8 @@
 		padding: 25px 0; }
 	.hot-deals h2 {
 		margin-bottom: 35px; }
+	.footer__contact .header__soc-block p {
+		display: block; }
 }
 
 @media (max-width: 700px) {
@@ -208,6 +215,8 @@
 		flex: 0 1 48%;
 		margin-right: 0;
 		margin-bottom: 10px; }
+	.footer__menu {
+		width: 100%; }
 }
 
 @media (max-width: 600px) {
@@ -217,6 +226,8 @@
 		justify-content: center; }
 	.reviews__card {
 		flex: 0 1 80%; }
+	.footer__contact .header__soc-block {
+		display: block; }
 }
 
 @media (max-width: 515px) {
@@ -264,6 +275,10 @@
 		flex: 0 1 80%; }
 	.team__card-descp {
 		padding: 15px 25px 35px 25px; }
+	.footer__contact .header__callback {
+		margin-bottom: 15px; }
+	.team__row {
+		margin-bottom: 15px; }
 }
 
 @media (max-width: 480px) {
@@ -285,6 +300,8 @@
 		padding: 35px 22px 22px 22px; }
 	.team__btn {
 		width: 100%; }
+	.footer__contact .header__callback {
+		display: block; }
 }
 
 @media (max-width: 414px) {
@@ -303,6 +320,12 @@
 	.topical__position {
 		padding: 35px; }
 	.hot-deals h2 {
+		font-size: 40px;
+		line-height: 45px; }
+	.topical h2 {
+		font-size: 40px;
+		line-height: 45px; }
+	.consult-form h2 {
 		font-size: 40px;
 		line-height: 45px; }
 }
