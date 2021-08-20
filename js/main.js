@@ -369,7 +369,22 @@ $('.slider__hot-deals').slick({
 	autoplay: true,
 	autoplaySpeed: 1800,
 	variableWidth: true,
-	adaptiveHeight: true
+	adaptiveHeight: true,
+	responsive: [
+		{
+			breakpoint: 770,
+			settings: {
+				arrows: false
+			}
+		}
+		, {
+			breakpoint: 440,
+			settings: {
+				slidesToShow: 1,
+				arrows: false
+			}
+		}
+	]
 });
 
 
