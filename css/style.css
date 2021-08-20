@@ -1288,8 +1288,8 @@ body.ie .ibg img {
 
 .info__item-link {
   -webkit-box-flex: 0;
-  -ms-flex: 0 1 340px;
-  flex: 0 1 340px;
+  -ms-flex: 0 1 23.6%;
+  flex: 0 1 23.6%;
   height: 40px;
   font-size: 22px;
   display: -webkit-box;
@@ -1988,6 +1988,53 @@ body.ie .ibg img {
   .container {
     padding: 0 10px; } }
 
+@media (max-width: 1360px) {
+  .info__block-tabs .tab__navitem {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 25%;
+    flex: 0 1 25%; } }
+
+@media (max-width: 1280px) {
+  .info__form-block-sel {
+    margin-right: 15px; }
+  .info__form-block-inp {
+    margin-right: 15px; }
+  .info__form-block-sel_last {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 170px;
+    flex: 0 1 170px;
+    margin-right: 0; }
+  .info__form-block-inp input {
+    margin-right: 8px; }
+  .info__form-block-inp input:last-child {
+    margin-right: 0; } }
+
+@media (max-width: 1100px) {
+  .info__block-tabs {
+    padding: 20px 25px 40px 25px; }
+  .info__form-block-sel {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto; } }
+
+@media (max-width: 1000px) {
+  .info__form-block-col {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap; }
+  .info__form-block-col:last-child {
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap; }
+  .info__form-block-sel {
+    margin-bottom: 10px; }
+  .info__form-block-inp {
+    margin-bottom: 10px; }
+  .info__form-block-col:last-child .info__form-block-inp {
+    margin-bottom: 0; } }
+
+@media (max-width: 960px) {
+  .info__block-tabs .tab__navitem {
+    font-size: 18px; } }
+
 @media (max-width: 930px) {
   .header__nav-block {
     -webkit-box-flex: 0;
@@ -2000,6 +2047,10 @@ body.ie .ibg img {
     margin-right: 30px; }
   .header__callback {
     margin-right: 20px; } }
+
+@media (max-width: 812px) {
+  .info__block-tabs {
+    padding: 20px 15px 35px 15px; } }
 
 @media (max-width: 768px) {
   .header {
@@ -2030,7 +2081,18 @@ body.ie .ibg img {
   .page {
     padding: 55px 0 0 0; }
   .mob-menu {
-    top: 50px; } }
+    top: 50px; }
+  .info {
+    padding: 30px 0 60px 0; }
+  .info__block-tabs .block__nav {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap; }
+  .info__block-tabs .tab__navitem {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 50%;
+    flex: 0 1 50%; }
+  .info__block-tabs .tab__navitem.active:before {
+    display: none; } }
 
 @media (max-width: 700px) {
   .mob-menu {
@@ -2038,7 +2100,11 @@ body.ie .ibg img {
     right: -100%;
     -webkit-transition: right 0.8s;
     -o-transition: right 0.8s;
-    transition: right 0.8s; } }
+    transition: right 0.8s; }
+  .info__form-block-col:last-child .info__form-block-inp {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto; } }
 
 @media (max-width: 630px) {
   .header__soc-block {
@@ -2048,6 +2114,47 @@ body.ie .ibg img {
   .header__soc-block {
     display: none; } }
 
+@media (max-width: 515px) {
+  .info {
+    padding: 10px 0 60px 0; }
+  .info__item {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap; }
+  .info__item-link {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 48%;
+    flex: 0 1 48%;
+    margin-bottom: 15px; }
+  .info__form-block-col {
+    margin-bottom: 25px; }
+  .info__form-block-col:last-child {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap; }
+  .info__form-block-col:last-child .info__form-block-inp {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 100%;
+    flex: 0 1 100%;
+    margin-right: 0;
+    margin-bottom: 10px; }
+  .info__form-block-inp-btn {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 100%;
+    flex: 0 1 100%; }
+  .info__form-block-sel {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 100%;
+    flex: 0 1 100%;
+    margin-right: 0; }
+  .info__form-block-inp {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 100%;
+    flex: 0 1 100%;
+    margin-right: 0; }
+  .info__form-block-inp input {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 100%;
+    flex: 0 1 100%; } }
+
 @media (max-width: 460px) {
   .header__callback {
     display: none; }
@@ -2056,3 +2163,18 @@ body.ie .ibg img {
     display: -ms-flexbox;
     display: flex;
     margin-right: 15px; } }
+
+@media (max-width: 414px) {
+  .info__block-tabs .tab__navitem {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 100%;
+    flex: 0 1 100%;
+    font-size: 20px; } }
+
+@media (max-width: 360px) {
+  .info h1 {
+    font-size: 40px;
+    line-height: 45px; }
+  .info h1 {
+    text-align: left;
+    margin-bottom: 30px; } }
