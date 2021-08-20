@@ -1,62 +1,73 @@
 //<Адаптив>===========================================================================================================================================
-@media (max-width: 1100px) {
+@media (max-width: 1450px) {
 	.container {
 		padding: 0 10px;
 	}
 }
 
+@media (max-width: 930px) {
+	.header__nav-block {
+		flex: 0 1 650px; 
+		justify-content: flex-end; }
+	.header__soc-block {
+		margin-right: 30px;}
+	.header__callback {
+		margin-right: 20px; }
+}
+
 @media (max-width: 768px) {
 	.header {
-		position: fixed;
-		width: 100%;
-		box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
-	}
-	.icon-menu {
-		display: block;
-	}
-	.menu__body {
-		display: none;
-	}
+    padding: 5px 0; }
+	.logo-icon {
+    max-width: 120px;
+    height: 45px; }
+	.logo-icon:before {
+    background-size: 80%; }
 	.header__callback {
-    margin-right: 20px;
-	}
+		flex: 0 0 180px;}
+	.header__callback a {
+		font-size: 23px;
+		font-weight: 700;
+		line-height: 25px; }
+	.header__popup-link {
+		display: none; }
+	.header__soc-block {
+		flex: 0 0 150px; }
+	.header__soc-block-icon {
+		margin-bottom: 0; }
+	.header__soc-block p {
+		display: none; }
+	.page {
+		padding: 55px 0 0 0; }
+	.mob-menu {
+		top: 50px; }
 }
 
 @media (max-width: 700px) {
 	.mob-menu {
-		width: 100%;
-		right: -100%;
-		-webkit-transition: right 0.8s;
-		-o-transition: right 0.8s;
-		transition: right 0.8s; }
-	}
+    width: 100%;
+    right: -100%;
+    transition: right 0.8s; }
+}
+
+@media (max-width: 630px) {
+	.header__soc-block {
+    margin-right: 20px; }
+}
+
+@media (max-width: 600px) {
+	.header__soc-block {
+    display: none; }
+}
 
 @media (max-width: 515px) {
+
+}
+
+@media (max-width: 460px) {
 	.header__callback {
     display: none; }
 	.mob-callback__phone {
     display: flex; 
-		margin-right: 25px;
-	}
-}
-
-@media (max-width: 480px) {
-	.header__search {
-    display: none;
-	}
-	.mob-search {
-    display: flex;
-	}
-	.header__search.active {
-    display: block;
-    position: absolute;
-    top: 50px;
-    left: 0;
-    max-width: 100%;
-    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
-    margin: 0;
-	}
-	.search__input {
-    border-radius: 0 !important;
-	}
+		margin-right: 15px; }
 }
