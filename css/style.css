@@ -1159,6 +1159,12 @@ body.ie .ibg img {
 .mob-menu.active {
   right: 0%; }
 
+.mob-menu__list {
+  margin-bottom: 20px; }
+
+.mob-menu__list:last-child {
+  margin-bottom: 0; }
+
 .mob-menu li a {
   display: inline-block;
   font-size: 23px;
