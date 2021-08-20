@@ -34,6 +34,8 @@
 	.advant__item {
 		flex: 0 1 22.3%;
 		padding: 35px 30px; }
+	.reviews__card {
+		flex: 0 1 32%; }
 }
 
 @media (max-width: 1150px) {
@@ -106,6 +108,14 @@
 @media (max-width: 812px) {
 	.info__block-tabs {
 		padding: 20px 15px 35px 15px; }
+	.reviews__row {
+		flex-wrap: wrap; }
+	.reviews__image-wrap {
+		margin: 5px 0 10px 0;  }
+	.reviews__card {
+		flex: 0 1 49%; 
+		margin-bottom: 15px;
+	}
 }
 
 @media (max-width: 768px) {
@@ -144,6 +154,10 @@
 		display: none; }
 	.choice {
 		padding: 35px 0; }
+	.reviews {
+		padding: 35px 0; }
+	.reviews h2 {
+		margin-bottom: 35px; }
 }
 
 @media (max-width: 700px) {
@@ -172,6 +186,10 @@
 @media (max-width: 600px) {
 	.header__soc-block {
     display: none; }
+	.reviews__row {
+		justify-content: center; }
+	.reviews__card {
+		flex: 0 1 80%; }
 }
 
 @media (max-width: 515px) {
@@ -210,6 +228,9 @@
 		margin-bottom: 15px; }
 	.advant__item-line {
 		margin-bottom: 15px; }
+	.reviews__card {
+		flex: 0 1 100%; 
+		padding: 0 25px 25px 25px; }
 }
 
 @media (max-width: 460px) {
