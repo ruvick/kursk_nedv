@@ -38,7 +38,7 @@
 			opacity: 1;
 		}
 		.popup__body {
-			border-radius: 25px;
+			// border-radius: 25px;
 			transform: scale(1);
 			transition: all 0.3s ease 0.2s;
 		}
@@ -57,7 +57,7 @@
 		max-width: 800px;
 		width: 100%;
 		// padding: 50px;
-		background: #EBEFE2;
+		background: #E8E8E8;
 		transform: scale(0);
 		transition: all 0.3s ease 0s;
 		overflow: hidden;
