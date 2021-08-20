@@ -58,7 +58,21 @@ $('.topical__slider').slick({
 	slidesToShow: 2,
 	autoplay: true,
 	autoplaySpeed: 1800,
-	adaptiveHeight: true
+	adaptiveHeight: true,
+	responsive: [
+		{
+			breakpoint: 770,
+			settings: {
+				arrows: false
+			}
+		}, {
+			breakpoint: 613,
+			settings: {
+				slidesToShow: 1.02,
+				arrows: false
+			}
+		}
+	]
 });
 
 // Slider Горячие предложения

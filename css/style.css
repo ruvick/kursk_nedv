@@ -1986,7 +1986,10 @@ body.ie .ibg img {
 
 @media (max-width: 1450px) {
   .container {
-    padding: 0 10px; } }
+    padding: 0 10px; }
+  .topical__card {
+    max-width: 660px;
+    margin-right: 25px; } }
 
 @media (max-width: 1360px) {
   .info__block-tabs .tab__navitem {
@@ -2009,6 +2012,10 @@ body.ie .ibg img {
   .info__form-block-inp input:last-child {
     margin-right: 0; } }
 
+@media (max-width: 1280px) {
+  .topical__position {
+    left: -5%; } }
+
 @media (max-width: 1100px) {
   .info__block-tabs {
     padding: 20px 25px 40px 25px; }
@@ -2016,6 +2023,15 @@ body.ie .ibg img {
     -webkit-box-flex: 1;
     -ms-flex: 1 1 auto;
     flex: 1 1 auto; } }
+
+@media (max-width: 1024px) {
+  .topical__card {
+    margin-right: 15px; }
+  .topical__position p {
+    font-size: 23px; }
+  .topical__position {
+    padding: 35px 118px;
+    left: -20%; } }
 
 @media (max-width: 1000px) {
   .info__form-block-col {
@@ -2046,7 +2062,18 @@ body.ie .ibg img {
   .header__soc-block {
     margin-right: 30px; }
   .header__callback {
-    margin-right: 20px; } }
+    margin-right: 20px; }
+  .topical__position {
+    padding: 35px 100px; } }
+
+@media (max-width: 900px) {
+  .topical__position {
+    left: 0;
+    padding: 35px 48px;
+    background-image: none;
+    background-color: #00000035; }
+  .topical__position p {
+    font-size: 28px; } }
 
 @media (max-width: 812px) {
   .info__block-tabs {
@@ -2110,6 +2137,10 @@ body.ie .ibg img {
   .header__soc-block {
     margin-right: 20px; } }
 
+@media (max-width: 613px) {
+  .topical__card img {
+    width: 100%; } }
+
 @media (max-width: 600px) {
   .header__soc-block {
     display: none; } }
@@ -2153,7 +2184,9 @@ body.ie .ibg img {
   .info__form-block-inp input {
     -webkit-box-flex: 0;
     -ms-flex: 0 1 100%;
-    flex: 0 1 100%; } }
+    flex: 0 1 100%; }
+  .topical {
+    padding: 35px 0; } }
 
 @media (max-width: 460px) {
   .header__callback {
@@ -2177,4 +2210,6 @@ body.ie .ibg img {
     line-height: 45px; }
   .info h1 {
     text-align: left;
-    margin-bottom: 30px; } }
+    margin-bottom: 30px; }
+  .topical__position {
+    padding: 35px; } }
