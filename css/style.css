@@ -125,7 +125,8 @@ h4 {
 .page {
   -webkit-box-flex: 1;
   -ms-flex: 1 1 auto;
-  flex: 1 1 auto; }
+  flex: 1 1 auto;
+  padding: 80px 0 0 0; }
 
 .container {
   max-width: 1440px;
@@ -253,7 +254,7 @@ h4 {
     min-width: 100%;
     background-color: #fff;
     border: 1px solid #dedede;
-    padding: 10px 20px 10px 15px; }
+    padding: 10px 10px 10px 15px; }
   .select .select-options-scroll {
     max-height: 80px;
     overflow: auto; }
@@ -944,10 +945,13 @@ body.ie .ibg img {
 /*Popup-JQUERY*/
 /*Popup-CSS*/
 .header {
-  padding: 11px 0;
-  position: relative;
+  position: fixed;
   z-index: 50000;
-  background: #fff; }
+  width: 100%;
+  padding: 11px 0;
+  background: #fff;
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75); }
 
 .header__row {
   -webkit-box-pack: justify;
@@ -1023,7 +1027,7 @@ body.ie .ibg img {
   float: left;
   background-position: 0 0;
   background-repeat: no-repeat;
-  background-size: cover; }
+  background-size: 100%; }
 
 .soc-icon-1::before {
   width: 20px;
@@ -1136,7 +1140,7 @@ body.ie .ibg img {
 
 .mob-menu {
   position: fixed;
-  top: 82px;
+  top: 78px;
   right: -50%;
   width: 50%;
   height: 100%;
@@ -1184,6 +1188,8 @@ body.ie .ibg img {
   background-image: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pg0KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE5LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPg0KPHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJDYXBhXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB2aWV3Qm94PSIwIDAgMzg0IDM4NCIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgMzg0IDM4NDsiIHhtbDpzcGFjZT0icHJlc2VydmUiPg0KPGc+DQoJPGc+DQoJCTxwYXRoIGZpbGw9IiNGQ0EwMUYiIGQ9Ik0zNTMuMTg4LDI1Mi4wNTJjLTIzLjUxLDAtNDYuNTk0LTMuNjc3LTY4LjQ2OS0xMC45MDZjLTEwLjcxOS0zLjY1Ni0yMy44OTYtMC4zMDItMzAuNDM4LDYuNDE3bC00My4xNzcsMzIuNTk0DQoJCQljLTUwLjA3My0yNi43MjktODAuOTE3LTU3LjU2My0xMDcuMjgxLTEwNy4yNmwzMS42MzUtNDIuMDUyYzguMjE5LTguMjA4LDExLjE2Ny0yMC4xOTgsNy42MzUtMzEuNDQ4DQoJCQljLTcuMjYtMjEuOTktMTAuOTQ4LTQ1LjA2My0xMC45NDgtNjguNTgzQzEzMi4xNDYsMTMuODIzLDExOC4zMjMsMCwxMDEuMzMzLDBIMzAuODEzQzEzLjgyMywwLDAsMTMuODIzLDAsMzAuODEzDQoJCQlDMCwyMjUuNTYzLDE1OC40MzgsMzg0LDM1My4xODgsMzg0YzE2Ljk5LDAsMzAuODEzLTEzLjgyMywzMC44MTMtMzAuODEzdi03MC4zMjNDMzg0LDI2NS44NzUsMzcwLjE3NywyNTIuMDUyLDM1My4xODgsMjUyLjA1MnoiDQoJCQkvPg0KCTwvZz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjwvc3ZnPg0K"); }
 
 .footer {
+  position: relative;
+  z-index: 50000;
   background: #23252D; }
   .footer__container {
     display: -webkit-box;
@@ -1671,6 +1677,8 @@ body.ie .ibg img {
   background: #fff;
   border-radius: 28px;
   border: 2px solid #E8E8E8;
+  border-top: none;
+  margin-right: 26px;
   overflow: hidden; }
 
 .hot-deals__card-img {
@@ -1688,7 +1696,7 @@ body.ie .ibg img {
   object-fit: cover; }
 
 .hot-deals__card-descp {
-  padding: 20px 54px 56px 20px;
+  padding: 26px 54px 60px 20px;
   -webkit-box-flex: 1;
   -ms-flex: 1 1 auto;
   flex: 1 1 auto;
@@ -1697,7 +1705,7 @@ body.ie .ibg img {
 .hot-deals__card-price {
   font-size: 30px;
   font-weight: 700;
-  margin-bottom: 13px; }
+  margin-bottom: 16px; }
 
 .hot-deals__card-charect {
   -webkit-box-pack: justify;
@@ -1705,7 +1713,7 @@ body.ie .ibg img {
   justify-content: space-between;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  margin-bottom: 12px; }
+  margin-bottom: 15px; }
 
 .hot-deals__card-housing {
   font-size: 16px;
@@ -1743,11 +1751,6 @@ body.ie .ibg img {
 
 .hot-deals__card-link:last-child {
   border-right: none; }
-
-.slider__hot-deals.slick-slider .slick-track {
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between; }
 
 .slider__hot-deals .slick-arrow {
   position: absolute;
@@ -1806,17 +1809,26 @@ body.ie .ibg img {
 .consult-form__form-block {
   position: relative;
   padding: 75px 22px 22px 39px;
+  border-radius: 29.12px; }
+
+.consult-form__form-block-position {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  background: -webkit-gradient(linear, left top, right top, from(#c10010), color-stop(11.73%, #a00a24), color-stop(34.34%, #671b49), color-stop(55.28%, #3a2966), color-stop(73.86%, #1a337a), color-stop(89.4%, #073987), to(#003c8c));
+  background: -webkit-linear-gradient(left, #c10010 0%, #a00a24 11.73%, #671b49 34.34%, #3a2966 55.28%, #1a337a 73.86%, #073987 89.4%, #003c8c 100%);
+  background: -o-linear-gradient(left, #c10010 0%, #a00a24 11.73%, #671b49 34.34%, #3a2966 55.28%, #1a337a 73.86%, #073987 89.4%, #003c8c 100%);
+  background: linear-gradient(90deg, #c10010 0%, #a00a24 11.73%, #671b49 34.34%, #3a2966 55.28%, #1a337a 73.86%, #073987 89.4%, #003c8c 100%);
   border-radius: 29.12px;
-  background: -webkit-gradient(linear, left top, left bottom, from(#c10010), color-stop(11.73%, #a00a24), color-stop(34.34%, #671b49), color-stop(55.28%, #3a2966), color-stop(73.86%, #1a337a), color-stop(89.4%, #073987), to(#003c8c));
-  background: -webkit-linear-gradient(#c10010 0%, #a00a24 11.73%, #671b49 34.34%, #3a2966 55.28%, #1a337a 73.86%, #073987 89.4%, #003c8c 100%);
-  background: -o-linear-gradient(#c10010 0%, #a00a24 11.73%, #671b49 34.34%, #3a2966 55.28%, #1a337a 73.86%, #073987 89.4%, #003c8c 100%);
-  background: linear-gradient(#c10010 0%, #a00a24 11.73%, #671b49 34.34%, #3a2966 55.28%, #1a337a 73.86%, #073987 89.4%, #003c8c 100%);
   opacity: 0.57; }
 
 .consult-form__form-block-img {
   position: absolute;
-  top: -110%;
-  right: -16%;
+  top: -105%;
+  right: -16.5%;
   max-width: 760px;
   width: 100%;
   height: 568px; }
@@ -1825,6 +1837,7 @@ body.ie .ibg img {
   max-width: 100%; }
 
 .consult-form__form {
+  position: relative;
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
@@ -1842,7 +1855,8 @@ body.ie .ibg img {
   height: 40px; }
 
 .consult-form__form-block p {
-  text-align-last: left;
+  font-size: 14px;
+  text-align: left;
   color: #fff;
   margin-bottom: 0; }
 
@@ -1960,6 +1974,9 @@ body.ie .ibg img {
   height: 40px;
   margin: 0 auto;
   background: #003C8C; }
+
+.nicescroll-cursors {
+  width: 3px !important; }
 
 @media (max-width: 1100px) {
   .container {

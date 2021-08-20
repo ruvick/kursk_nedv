@@ -351,9 +351,10 @@ $('.slider__hot-deals').slick({
 	dots: false,
 	infinite: true,
 	speed: 1000,
-	slidesToShow: 3.3,
+	slidesToShow: 3,
 	autoplay: true,
 	autoplaySpeed: 1800,
+	variableWidth: true,
 	adaptiveHeight: true
 });
 

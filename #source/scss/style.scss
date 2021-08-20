@@ -76,7 +76,7 @@ h4 {
 }
 .page {
 	flex: 1 1 auto;  
-	// padding: 35px 0;
+	padding: 80px 0 0 0;
 }
 //</ОБОЛОЧКА>===========================================================================================================
 
@@ -526,6 +526,8 @@ h4 {
 	background: #fff;
 	border-radius: 28px;
 	border: 2px solid #E8E8E8;
+	border-top: none;
+	margin-right: 26px;
 	overflow: hidden;
 }
 
@@ -543,20 +545,20 @@ h4 {
 }
 
 .hot-deals__card-descp {
-	padding: 20px 54px 56px 20px;
+	padding: 26px 54px 60px 20px;
 	flex: 1 1 auto;
 	overflow: hidden;
 }
 .hot-deals__card-price {
 	font-size: 30px;
 	font-weight: 700;
-	margin-bottom: 13px;
+	margin-bottom: 16px;
 }
 
 .hot-deals__card-charect {
 	justify-content: space-between;
 	flex-wrap: wrap;
-	margin-bottom: 12px;
+	margin-bottom: 15px;
 }
 
 .hot-deals__card-housing {
@@ -592,9 +594,9 @@ h4 {
 	border-right: none;
 }
 
-.slider__hot-deals.slick-slider .slick-track {
-	justify-content: space-between;
-}
+// .slider__hot-deals.slick-slider .slick-track {
+// 	justify-content: space-between;
+// }
 
 .slider__hot-deals .slick-arrow {
 	position: absolute;
@@ -658,14 +660,24 @@ h4 {
 	position: relative;
 	padding: 75px 22px 22px 39px;
 	border-radius: 29.12px;
-	background: linear-gradient(#c10010 0%, #a00a24 11.73%, #671b49 34.34%, #3a2966 55.28%, #1a337a 73.86%, #073987 89.4%, #003c8c 100%);
+}
+
+.consult-form__form-block-position {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+	background: linear-gradient(90deg, #c10010 0%, #a00a24 11.73%, #671b49 34.34%, #3a2966 55.28%, #1a337a 73.86%, #073987 89.4%, #003c8c 100%);
+	border-radius: 29.12px;
 	opacity: 0.57;
 }
 
 .consult-form__form-block-img {
 	position: absolute;
-	top: -110%;
-	right: -16%;
+	top: -105%;
+	right: -16.5%;
 	max-width: 760px;
 	width: 100%;
 	height: 568px;
@@ -676,6 +688,7 @@ h4 {
 }
 
 .consult-form__form {
+	position: relative;
 	justify-content: space-between;
 	max-width: 980px;
 	width: 100%;
@@ -692,7 +705,8 @@ h4 {
 }
 
 .consult-form__form-block p {
-	text-align-last: left;
+	font-size: 14px;
+  text-align: left;
 	color: #fff;
 	margin-bottom: 0;
 }
@@ -799,6 +813,18 @@ h4 {
 	margin: 0 auto;
 	background: #003C8C;
 }
+
+// ===============================================================================================================================================================
+.nicescroll-cursors {
+	width: 3px !important;
+}
+
+
+
+
+
+
+// ===============================================================================================================================================================
 
 //</ОСНОВНОЙ БЛОК>====================================================================================================================================
 
