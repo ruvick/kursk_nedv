@@ -464,6 +464,14 @@
 	.advant__item {
 		flex: 0 1 32%;
 		padding: 15px;} 
+	.info__block-tabs .tab__navitem {
+		display: flex;
+		flex-direction: column-reverse;
+		align-items: center;
+		font-size: 16px;
+		margin-bottom: 10px;}
+	.info__block-tabs .tab__navitem:after {
+		display: block;}
 }
 
 @media (max-width: 515px) {
@@ -549,9 +557,6 @@
 }
 
 @media (max-width: 414px) {
-	.info__block-tabs .tab__navitem {
-		flex: 0 1 100%;
-		font-size: 20px; }
 	.team__card {
 		flex: 0 0 60%;}  
 }
@@ -563,6 +568,10 @@
 		max-width: 300px;
 		max-height: 180px;
 		margin-right: 10px;}
+	.info__block-tabs {
+		padding: 20px 10px 35px 10px;}
+	.info__block-tabs .tab__navitem {
+		font-size: 14px;}
 }
 
 @media (max-width: 360px) {
