@@ -520,6 +520,9 @@
 		flex: 0 0 47%;} 
 	.team__card {
 		flex: 0 0 55%;} 
+	.advant__item-line::before {
+		width: 50px;
+		background-size: 150%;}
 }
 
 @media (max-width: 480px) {
@@ -533,6 +536,8 @@
 		font-size: 30px;
     line-height: 1.3;
 		margin-bottom: 20px;}
+	.team__card-img img {
+		object-fit: cover;}
 }
 
 @media (max-width: 460px) {
