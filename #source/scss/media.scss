@@ -71,8 +71,8 @@
 	.topical__position p {
 		font-size: 23px; }
 	.topical__position {
-		padding: 35px 118px;
-		left: -20%; }
+		padding: 35px 95px;
+		left: -10%; }
 	.consult-form__form-block {
 		padding: 60px 22px 22px 22px; }
 	.consult-form__form-input {
@@ -95,6 +95,9 @@
 @media (max-width: 960px) {
 	.info__block-tabs .tab__navitem {
 		font-size: 18px; }
+	.topical__card img {
+		width: 100%;
+		height: 100%;}
 }
 
 @media (max-width: 930px) {
@@ -209,7 +212,8 @@
 	.hot-deals h2 {
 		margin-bottom: 35px; }
 	.footer__contact .header__soc-block p {
-		display: block; }
+		display: block;
+		font-size: 12px;}
 	.topical {
 		padding: 25px 0 35px 0; }
 	.topical h2 {
@@ -369,6 +373,29 @@
 	.hot-deals__card-link {
 		font-size: 13px;
 		height: 33px;}
+	.footer__container {
+		min-height: 330px;
+		padding: 20px 10px !important;}
+	.footer__menu {
+		margin-bottom: 25px;}
+	.footer__menu li:first-child {
+		font-size: 18px;
+		margin-bottom: 15px;}
+	.footer__menu li {
+		font-size: 14px;
+		margin-bottom: 10px;}
+	.footer__row {
+		margin-bottom: 25px;}
+	.footer__policy {
+		font-size: 12px;
+		margin-top: 15px;}
+	.footer__contact .header__callback {
+		margin-bottom: 10px;}
+	.footer__contact .header__callback a {
+		font-size: 23px;
+		line-height: 1.3;}
+	.footer__contact .header__soc-block {
+		width: 150px;}
 }
 
 @media (max-width: 700px) {
