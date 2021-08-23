@@ -343,6 +343,7 @@ $('.topical__slider').slick({
 	autoplay: true,
 	autoplaySpeed: 1800,
 	adaptiveHeight: true,
+	variableWidth: true,
 	responsive: [
 		{
 			breakpoint: 770,
