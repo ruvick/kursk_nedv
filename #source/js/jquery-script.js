@@ -64,13 +64,14 @@ $('.topical__slider').slick({
 		{
 			breakpoint: 770,
 			settings: {
-				arrows: false
+				arrows: false,
 			}
 		}, {
 			breakpoint: 613,
 			settings: {
-				slidesToShow: 1.02,
-				arrows: false
+				slidesToShow: 1,
+				arrows: false,
+				autoplay: true
 			}
 		}
 	]
