@@ -50,8 +50,13 @@
 }
 
 .product-info__column {
-  flex: 0 0 705px;
+  // flex: 0 0 705px;
+  flex: 0 0 49%;
   margin-right: 24px;
+}
+
+.product-info__column:last-child {
+  margin-right: 0;
 }
 
 .product-info__column-map {
@@ -63,7 +68,7 @@
 
 .product-info__map {
 	width: 100%;
-	height: 1495px;
+	height: 1500px;
   border-radius: 28px;
   border: 2px solid #E8E8E8;
   overflow: hidden;
