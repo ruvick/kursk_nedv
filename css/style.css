@@ -2671,7 +2671,22 @@ body.ie .ibg img {
   .product-info__wrap-card .hot-deals__card:last-child {
     margin-right: 0; }
   .product-info__wrap-card::-webkit-scrollbar {
-    display: none; } }
+    display: none; }
+  .contacts__address li {
+    font-size: 16px; }
+  .contacts__contacts-block {
+    margin-bottom: 20px; }
+  .contacts__contacts-item-phone {
+    font-size: 28px;
+    line-height: 35px; }
+  .contacts__contacts-item-email {
+    font-size: 14px;
+    line-height: 20px; }
+  .contacts__soc-block {
+    width: 130px;
+    margin-bottom: 25px; }
+  .contacts__soc-block .soc-block-icon-link::before {
+    background-size: 80%; } }
 
 @media (max-width: 700px) {
   .mob-menu {
