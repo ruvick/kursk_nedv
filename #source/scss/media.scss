@@ -194,11 +194,13 @@
 	.header__popup-link {
 		display: none; }
 	.header__soc-block {
-    flex: 0 0 130px;
-    margin-top: 3px;
-    margin-right: 20px; }
+		margin-top: 3px; 
+		margin-right: 20px; }
 	.header__soc-block-icon {
-		margin-bottom: 0; }
+    width: 130px;
+		margin-bottom: 0;}
+	.header__soc-block-icon .soc-block-icon-link::before {
+		background-size: 80%;}
 	.header__soc-block p {
 		display: none; }
 	.header__menu-burg {
@@ -245,7 +247,7 @@
 		padding: 25px 0; }
 	.hot-deals h2 {
 		margin-bottom: 35px; }
-	.footer__contact .header__soc-block p {
+	.footer__soc-block p {
 		display: block;
 		font-size: 12px;}
 	.topical {
@@ -428,8 +430,10 @@
 	.footer__contact .header__callback a {
 		font-size: 23px;
 		line-height: 1.3;}
-	.footer__contact .header__soc-block {
+	.footer__soc-block-icon {
 		width: 150px;}
+	.footer__soc-block-icon .soc-block-icon-link::before {
+		background-size: 80%;}
 	.mob-menu {
 		padding: 35px 25px 100px 25px;}
 	.mob-menu li a {
@@ -577,7 +581,7 @@
 		flex: 0 1 80%; }
 	.team__card-descp {
 		padding: 15px 25px 35px 25px; }
-	.footer__contact .header__callback {
+	.footer__contact .header__callback { 
 		margin-bottom: 15px; }
 	.team__row {
 		margin-bottom: 15px; }
