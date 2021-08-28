@@ -1,12 +1,10 @@
 //<Адаптив>===========================================================================================================================================
 @media (max-width: 1450px) {
 	.container {
-		padding: 0 10px;
-	}
+		padding: 0 10px;}
 	.topical__card {
 		max-width: 660px;
-		margin-right: 25px;
-	}
+		margin-right: 25px;}
 	.topical__slider .slick-next {
     left: -5px;}
 	.topical__slider .slick-prev {
@@ -15,6 +13,10 @@
 		left: -5px;}
 	.slider__hot-deals .slick-prev {
 		right: -5px;}
+	.how-work__actions {
+		margin-right: 15px;}
+	.sell-pass-info {
+		background-position: 80% 0;}
 }
 
 @media (max-width: 1360px) {
@@ -61,6 +63,8 @@
 		flex: 0 1 49%;}
 	.page-recurring {
 		padding-bottom: 35px;}
+	.how-work__actions .actions-item-text {
+		padding: 10px 23px;}
 }
 
 @media (max-width: 1150px) {
@@ -77,6 +81,13 @@
 		padding: 20px 25px 40px 25px; }
 	.info__form-block-sel {
 		flex: 1 1 auto; }
+	.how-work__actions .actions-item-text {
+		font-size: 22px;}
+}
+
+@media (max-width: 1050px) {
+	.sell-pass-info__text {
+    margin-right: 10px; }
 }
 
 @media (max-width: 1040px) {
@@ -112,6 +123,8 @@
 		margin-bottom: 20px;}
 	.product-info__map {
 		height: 350px;}
+	.how-work__actions .actions-item-text {
+		padding: 10px 23px 10px 15px;}
 }
 
 @media (max-width: 1000px) {
@@ -125,6 +138,8 @@
 		margin-bottom: 10px; }
 	.info__form-block-col:last-child	.info__form-block-inp {
 		margin-bottom: 0; }
+	.how-work__actions {
+		flex: 0 0 453px;}
 }
 
 @media (max-width: 960px) {
@@ -156,6 +171,11 @@
 	}
 	.topical__position p {
 		font-size: 28px; }
+}
+
+@media (max-width: 830px) {
+	.sell-pass-info__form-btn {
+		font-size: 14px; }
 }
 
 @media (max-width: 812px) {
@@ -494,6 +514,46 @@
 		padding-bottom: 35px;}
 	.consult-form {
 		padding: 15px 0;}
+	.sell-pass-info {
+		padding: 35px 0;}
+	.sell-pass-info__text h1 {
+		font-size: 36px;
+		line-height: 38px;
+		margin-bottom: 25px;}
+	.sell-pass-info__form-block {
+		padding: 17px 20px 20px 20px;}
+	.sell-pass-info__form-block p:last-child {
+		font-size: 10px;
+		line-height: 1;}
+	.sell-pass-info__form-select-select-block {
+		margin-bottom: 10px;}
+	.sell-pass-info__form-input {
+		margin-bottom: 15px;}
+	.sell-pass-info__form {
+		margin-bottom: 15px;}
+	.how-work h2 {
+		font-size: 24px;
+    line-height: 1;
+		margin-bottom: 15px;}
+	.how-work__actions {
+		flex: 0 1 100%;}
+	.how-work__actions .actions-item {
+		margin-bottom: 10px;}
+	.how-work__actions .actions-item:last-child {
+		margin-bottom: 0;}
+	.how-work__actions .actions-item-number {
+		font-size: 20px;
+		line-height: 1;
+		flex: 0 0 45px;
+		min-height: 45px;}
+	.how-work__actions .actions-item-text {
+		font-size: 16px;
+		line-height: 1.3;
+		padding: 5px 15px;}
+	.how-work__img {
+		height: auto;}
+	.sell-info {
+		background: #E9CCAF;}
 }
 
 @media (max-width: 700px) {
@@ -542,6 +602,25 @@
 		margin-right: 10px;}
 	.team__card {
 		flex: 0 0 45%;}
+	.sell-pass-info__row {
+		flex-wrap: wrap;}
+	.sell-pass-info__text {
+		margin-right: 0;
+		margin-bottom: 20px;}
+	.sell-pass-info__text h1 {
+		max-width: 100%;
+		margin-bottom: 15px;}
+	.sell-pass-info__text p {
+		max-width: 100%;}
+	.sell-pass-info__form-block {
+		flex: 0 1 100%;
+		padding: 20px 20px 30px 20px;}
+	.how-work__row {
+		flex-wrap: wrap;}
+	.how-work__actions {
+		margin-right: 0;}
+	.how-work__actions {
+		margin-bottom: 15px;}
 }
 
 @media (max-width: 600px) {
@@ -618,6 +697,12 @@
 		padding-top: 15px;}
 	.page-recurring {
 		padding-bottom: 10px;}
+	.sell-pass-info {
+		padding: 20px 0 30px 0;}
+	.how-work {
+		padding-bottom: 15px;}
+	.how-work__actions .actions-arrow-icon::after {
+		background-size: 80%;}
 }
 
 @media (max-width: 480px) {
@@ -656,11 +741,20 @@
 		padding: 16px 16px 23px 16px;}
 	.product-info__wrap-card .hot-deals__card {
 		flex: 0 0 80%;}
+	.sell-pass-info__text h1 {
+		font-size: 33px;
+		line-height: 33px;}
+	.sell-pass-info__text p {
+		font-size: 14px;
+		line-height: 1.2;}
 }
 
 @media (max-width: 414px) {
 	.team__card {
 		flex: 0 0 60%;}  
+	.sell-pass-info__text h1 {
+		font-size: 28px;
+		line-height: 30px;}
 }
 
 @media (max-width: 380px) {
@@ -689,4 +783,11 @@
 		flex: 0 0 70%;} 
 	.product-info__wrap-card .hot-deals__card .hot-deals__card-link {
 		font-size: 12px;}
+}
+
+@media (max-width: 340px) {
+	.sell-pass-info__form-btn {
+		font-size: 13px;}
+	.how-work__actions .actions-item-text {
+		padding: 5px 15px 5px 10px;}
 }

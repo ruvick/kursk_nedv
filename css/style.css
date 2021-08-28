@@ -1464,7 +1464,8 @@ body.ie .ibg img {
       margin-bottom: 0; }
 
 .sell-pass-info__form {
-  width: 100%; }
+  width: 100%;
+  margin-bottom: 28px; }
 
 .sell-pass-info__form-select-select-block {
   margin-bottom: 20px; }
@@ -1478,8 +1479,7 @@ body.ie .ibg img {
 
 .sell-pass-info__form-btn {
   width: 100%;
-  font-size: 16px;
-  margin-bottom: 28px; }
+  font-size: 16px; }
 
 .how-work {
   padding-bottom: 35px; }
@@ -1527,7 +1527,7 @@ body.ie .ibg img {
   -webkit-box-flex: 0;
   -ms-flex: 0 0 95.48px;
   flex: 0 0 95.48px;
-  height: 92.46px;
+  min-height: 92.46px;
   background: -webkit-gradient(linear, left top, left bottom, from(#c10010), color-stop(11.73%, #a00a24), color-stop(34.34%, #671b49), color-stop(55.28%, #3a2966), color-stop(73.86%, #1a337a), color-stop(89.4%, #073987), to(#003c8c));
   background: -webkit-linear-gradient(#c10010 0%, #a00a24 11.73%, #671b49 34.34%, #3a2966 55.28%, #1a337a 73.86%, #073987 89.4%, #003c8c 100%);
   background: -o-linear-gradient(#c10010 0%, #a00a24 11.73%, #671b49 34.34%, #3a2966 55.28%, #1a337a 73.86%, #073987 89.4%, #003c8c 100%);
@@ -2356,7 +2356,11 @@ body.ie .ibg img {
   .slider__hot-deals .slick-next {
     left: -5px; }
   .slider__hot-deals .slick-prev {
-    right: -5px; } }
+    right: -5px; }
+  .how-work__actions {
+    margin-right: 15px; }
+  .sell-pass-info {
+    background-position: 80% 0; } }
 
 @media (max-width: 1360px) {
   .info__block-tabs .tab__navitem {
@@ -2410,7 +2414,9 @@ body.ie .ibg img {
     -ms-flex: 0 1 49%;
     flex: 0 1 49%; }
   .page-recurring {
-    padding-bottom: 35px; } }
+    padding-bottom: 35px; }
+  .how-work__actions .actions-item-text {
+    padding: 10px 23px; } }
 
 @media (max-width: 1150px) {
   .advant__row {
@@ -2429,7 +2435,13 @@ body.ie .ibg img {
   .info__form-block-sel {
     -webkit-box-flex: 1;
     -ms-flex: 1 1 auto;
-    flex: 1 1 auto; } }
+    flex: 1 1 auto; }
+  .how-work__actions .actions-item-text {
+    font-size: 22px; } }
+
+@media (max-width: 1050px) {
+  .sell-pass-info__text {
+    margin-right: 10px; } }
 
 @media (max-width: 1040px) {
   .footer__menu {
@@ -2467,7 +2479,9 @@ body.ie .ibg img {
   .product-info__wrap-card {
     margin-bottom: 20px; }
   .product-info__map {
-    height: 350px; } }
+    height: 350px; }
+  .how-work__actions .actions-item-text {
+    padding: 10px 23px 10px 15px; } }
 
 @media (max-width: 1000px) {
   .info__form-block-col {
@@ -2481,7 +2495,11 @@ body.ie .ibg img {
   .info__form-block-inp {
     margin-bottom: 10px; }
   .info__form-block-col:last-child .info__form-block-inp {
-    margin-bottom: 0; } }
+    margin-bottom: 0; }
+  .how-work__actions {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 453px;
+    flex: 0 0 453px; } }
 
 @media (max-width: 960px) {
   .info__block-tabs .tab__navitem {
@@ -2513,6 +2531,10 @@ body.ie .ibg img {
     background-color: #00000035; }
   .topical__position p {
     font-size: 28px; } }
+
+@media (max-width: 830px) {
+  .sell-pass-info__form-btn {
+    font-size: 14px; } }
 
 @media (max-width: 812px) {
   .info__block-tabs {
@@ -2885,7 +2907,51 @@ body.ie .ibg img {
   .product-info {
     padding-bottom: 35px; }
   .consult-form {
-    padding: 15px 0; } }
+    padding: 15px 0; }
+  .sell-pass-info {
+    padding: 35px 0; }
+  .sell-pass-info__text h1 {
+    font-size: 36px;
+    line-height: 38px;
+    margin-bottom: 25px; }
+  .sell-pass-info__form-block {
+    padding: 17px 20px 20px 20px; }
+  .sell-pass-info__form-block p:last-child {
+    font-size: 10px;
+    line-height: 1; }
+  .sell-pass-info__form-select-select-block {
+    margin-bottom: 10px; }
+  .sell-pass-info__form-input {
+    margin-bottom: 15px; }
+  .sell-pass-info__form {
+    margin-bottom: 15px; }
+  .how-work h2 {
+    font-size: 24px;
+    line-height: 1;
+    margin-bottom: 15px; }
+  .how-work__actions {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 100%;
+    flex: 0 1 100%; }
+  .how-work__actions .actions-item {
+    margin-bottom: 10px; }
+  .how-work__actions .actions-item:last-child {
+    margin-bottom: 0; }
+  .how-work__actions .actions-item-number {
+    font-size: 20px;
+    line-height: 1;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 45px;
+    flex: 0 0 45px;
+    min-height: 45px; }
+  .how-work__actions .actions-item-text {
+    font-size: 16px;
+    line-height: 1.3;
+    padding: 5px 15px; }
+  .how-work__img {
+    height: auto; }
+  .sell-info {
+    background: #E9CCAF; } }
 
 @media (max-width: 700px) {
   .mob-menu {
@@ -2949,7 +3015,30 @@ body.ie .ibg img {
   .team__card {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 45%;
-    flex: 0 0 45%; } }
+    flex: 0 0 45%; }
+  .sell-pass-info__row {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap; }
+  .sell-pass-info__text {
+    margin-right: 0;
+    margin-bottom: 20px; }
+  .sell-pass-info__text h1 {
+    max-width: 100%;
+    margin-bottom: 15px; }
+  .sell-pass-info__text p {
+    max-width: 100%; }
+  .sell-pass-info__form-block {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 100%;
+    flex: 0 1 100%;
+    padding: 20px 20px 30px 20px; }
+  .how-work__row {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap; }
+  .how-work__actions {
+    margin-right: 0; }
+  .how-work__actions {
+    margin-bottom: 15px; } }
 
 @media (max-width: 600px) {
   .footer__contact .header__soc-block {
@@ -3053,7 +3142,13 @@ body.ie .ibg img {
   .recurring {
     padding-top: 15px; }
   .page-recurring {
-    padding-bottom: 10px; } }
+    padding-bottom: 10px; }
+  .sell-pass-info {
+    padding: 20px 0 30px 0; }
+  .how-work {
+    padding-bottom: 15px; }
+  .how-work__actions .actions-arrow-icon::after {
+    background-size: 80%; } }
 
 @media (max-width: 480px) {
   .consult-form__form-input {
@@ -3102,13 +3197,22 @@ body.ie .ibg img {
   .product-info__wrap-card .hot-deals__card {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 80%;
-    flex: 0 0 80%; } }
+    flex: 0 0 80%; }
+  .sell-pass-info__text h1 {
+    font-size: 33px;
+    line-height: 33px; }
+  .sell-pass-info__text p {
+    font-size: 14px;
+    line-height: 1.2; } }
 
 @media (max-width: 414px) {
   .team__card {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 60%;
-    flex: 0 0 60%; } }
+    flex: 0 0 60%; }
+  .sell-pass-info__text h1 {
+    font-size: 28px;
+    line-height: 30px; } }
 
 @media (max-width: 380px) {
   .reviews__card {
@@ -3139,3 +3243,9 @@ body.ie .ibg img {
     flex: 0 0 70%; }
   .product-info__wrap-card .hot-deals__card .hot-deals__card-link {
     font-size: 12px; } }
+
+@media (max-width: 340px) {
+  .sell-pass-info__form-btn {
+    font-size: 13px; }
+  .how-work__actions .actions-item-text {
+    padding: 5px 15px 5px 10px; } }
