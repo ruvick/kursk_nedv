@@ -246,9 +246,9 @@
 		top: 35px; }
 	.info {
 		padding: 30px 0 35px 0; }
-	.info h1 {
-		font-size: 36px;
-		margin-bottom: 30px; }
+	// .info h1 {
+	// 	font-size: 36px;
+	// 	margin-bottom: 30px; }
 	.info__item-link {
 		flex: 0 1 23%;
 		height: 30px;
@@ -516,10 +516,10 @@
 		padding: 15px 0;}
 	.sell-pass-info {
 		padding: 35px 0;}
-	.sell-pass-info__text h1 {
-		font-size: 36px;
-		line-height: 38px;
-		margin-bottom: 25px;}
+	// .sell-pass-info__text h1 {
+	// 	font-size: 36px;
+	// 	line-height: 38px;
+	// 	margin-bottom: 25px;}
 	.sell-pass-info__form-block {
 		padding: 17px 20px 20px 20px;}
 	.sell-pass-info__form-block p:last-child {
@@ -554,6 +554,13 @@
 		height: auto;}
 	.sell-info {
 		background: #E9CCAF;}
+	.page h1 {
+		font-size: 36px;
+		line-height: 38px;
+		margin-bottom: 25px;}
+	.page h2 {
+		font-size: 24px;
+		line-height: 1;}
 }
 
 @media (max-width: 700px) {
@@ -741,12 +748,15 @@
 		padding: 16px 16px 23px 16px;}
 	.product-info__wrap-card .hot-deals__card {
 		flex: 0 0 80%;}
-	.sell-pass-info__text h1 {
-		font-size: 33px;
-		line-height: 33px;}
+	// .sell-pass-info__text h1 {
+	// 	font-size: 33px;
+	// 	line-height: 33px;}
 	.sell-pass-info__text p {
 		font-size: 14px;
 		line-height: 1.2;}
+	.page h1 {
+		font-size: 30px;
+    line-height: 1;}
 }
 
 @media (max-width: 414px) {
