@@ -1,0 +1,35 @@
+.promgranit-info {
+  background-image: url('../img/promgranit-bg.jpg');
+}
+
+.promgranit-info .sell-pass-info__text h1 {
+  max-width: 616px;
+}
+
+
+.floor-plan {
+  padding: 20px 0 0 0;
+  background: #E8E8E8;
+}
+
+// .floor-plan h2 {
+//   margin-bottom: 35px;
+// }
+
+.floor-plan__img {
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.floor-plan__img img {
+  max-width: 100%;
+}
+
+.interior {
+  padding: 54px 0 25px 0;
+}
+
+.interior h2 {
+  margin-bottom: 53px;
+}
