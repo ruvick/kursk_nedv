@@ -1717,6 +1717,9 @@ body.ie .ibg img {
   flex: 0 1 49%;
   margin-bottom: 23.5px; }
 
+.location__row .actions-item-text {
+  border: none; }
+
 .location__row .actions-item:last-child {
   margin-bottom: 0; }
 
@@ -2737,7 +2740,9 @@ body.ie .ibg img {
     line-height: 1.2; }
   .promgranit-about__descp-icons-item-text:before {
     background-size: 85%;
-    margin-right: 10px; } }
+    margin-right: 10px; }
+  .location__row .actions-item-text {
+    padding: 10px 23px; } }
 
 @media (max-width: 1150px) {
   .advant__row {
@@ -2762,7 +2767,9 @@ body.ie .ibg img {
   .promgranit-about__descp-icons-item {
     -webkit-box-flex: 0;
     -ms-flex: 0 1 32.6%;
-    flex: 0 1 32.6%; } }
+    flex: 0 1 32.6%; }
+  .location__row .actions-item-text {
+    font-size: 22px; } }
 
 @media (max-width: 1050px) {
   .sell-pass-info__text {
@@ -2896,7 +2903,9 @@ body.ie .ibg img {
 
 @media (max-width: 830px) {
   .sell-pass-info__form-btn {
-    font-size: 14px; } }
+    font-size: 14px; }
+  .location__row .actions-item-text {
+    padding: 10px 23px 10px 15px; } }
 
 @media (max-width: 812px) {
   .info__block-tabs {
@@ -3357,9 +3366,79 @@ body.ie .ibg img {
   .promgranit-info .nuar_blk {
     display: block; }
   .interior {
-    padding: 20px; }
+    padding: 20px 0; }
   .interior h2 {
-    margin-bottom: 25px; } }
+    margin-bottom: 25px; }
+  .overview__mosaic {
+    margin-top: 25px; }
+  .mosaic__img {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 32.3%;
+    flex: 0 1 32.3%;
+    height: auto; }
+  .mosaic__one .mosaic__img:nth-child(1) {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 32.3%;
+    flex: 0 1 32.3%; }
+  .mosaic__two-right {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 66.3%;
+    flex: 0 1 66.3%; }
+  .mosaic__two-left {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 32%;
+    flex: 0 1 32%; }
+  .mosaic__two-left .mosaic__img:nth-child(1) {
+    height: 100%;
+    margin-bottom: 0; }
+  .mosaic__two-right {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 66.3%;
+    flex: 0 1 66.3%; }
+  .mosaic__two-right .mosaic__img:nth-child(1), .mosaic__two-right .mosaic__img:nth-child(4) {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 49%;
+    flex: 0 1 49%; }
+  .mosaic__two-right .mosaic__img {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 49%;
+    flex: 0 1 49%; }
+  .mosaic__two-right .mosaic__img:nth-child(3), .mosaic__two-right .mosaic__img:nth-child(4) {
+    margin-bottom: 0; }
+  .location {
+    padding: 25px 0; }
+  .location h2 {
+    margin-bottom: 25px; }
+  .location__row .actions-item {
+    margin-bottom: 10px; }
+  .location__row .actions-item-number {
+    font-size: 20px;
+    line-height: 1;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 45px;
+    flex: 0 0 45px;
+    min-height: 45px; }
+  .location__row .actions-item-text {
+    font-size: 16px;
+    line-height: 1.3;
+    padding: 5px 15px; }
+  .actions-icon-pdf::before {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 23px;
+    flex: 0 0 23px;
+    height: 25px;
+    background-size: 100%; }
+  .actions-round-arrow-icon::after {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 20px;
+    flex: 0 0 20px;
+    height: 20px; }
+  .general-plan h2 {
+    margin-bottom: 25px; }
+  .general-plan {
+    padding: 25px 0; }
+  .general-plan__map {
+    height: 328px; } }
 
 @media (max-width: 700px) {
   .mob-menu {
@@ -3593,7 +3672,11 @@ body.ie .ibg img {
   .how-work__actions .actions-arrow-icon::after {
     background-size: 80%; }
   .promgranit-about {
-    padding-bottom: 25px; } }
+    padding-bottom: 25px; }
+  .location__row .actions-item {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 100%;
+    flex: 0 1 100%; } }
 
 @media (max-width: 480px) {
   .consult-form__form-input {
@@ -3618,7 +3701,20 @@ body.ie .ibg img {
     -ms-flex: 0 0 38%;
     flex: 0 0 38%; }
   .promgranit-about__text p {
-    text-align: justify; } }
+    text-align: justify; }
+  .overview p {
+    font-size: 14px;
+    line-height: 1.3;
+    margin-bottom: 10px;
+    text-align: justify; }
+  .overview__mosaic {
+    margin-top: 20px; }
+  .mosaic__img {
+    margin-bottom: 5px; }
+  .overview {
+    padding-bottom: 25px; }
+  .general-plan__map {
+    height: 328px; } }
 
 @media (max-width: 460px) {
   .header__callback {
@@ -3667,7 +3763,9 @@ body.ie .ibg img {
   .promgranit-about__descp-icons-item {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 43%;
-    flex: 0 0 43%; } }
+    flex: 0 0 43%; }
+  .mosaic__img {
+    border-radius: 20px; } }
 
 @media (max-width: 380px) {
   .reviews__card {
