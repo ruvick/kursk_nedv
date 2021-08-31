@@ -169,6 +169,10 @@
 		flex: 0 1 60%;}
 	.promgranit-about h2 {
 		margin-bottom: 25px !important;}
+	.callback-widget {
+		right: 2%;
+		width: 65px;
+		height: 65px;}
 }
 
 @media (max-width: 1000px) {
@@ -916,6 +920,9 @@
 		padding-bottom: 25px;}
 	.general-plan__map {
 		height: 328px;}
+	.callback-widget {
+		width: 60px;
+		height: 60px;}
 }
 
 @media (max-width: 460px) {
