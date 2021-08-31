@@ -1744,6 +1744,9 @@ body.ie .ibg img {
 .promgranit-info {
   background-image: url("../img/promgranit-bg.jpg"); }
 
+.promgranit-info .nuar_blk {
+  display: none; }
+
 .promgranit-info .sell-pass-info__text h1 {
   max-width: 616px; }
 
@@ -1753,14 +1756,18 @@ body.ie .ibg img {
 .promgranit-about h2 {
   margin-bottom: 51px !important; }
 
+.promgranit-about__row {
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+
 .promgranit-about__img {
   -webkit-box-flex: 0;
-  -ms-flex: 0 0 638px;
-  flex: 0 0 638px;
+  -ms-flex: 0 1 44.333%;
+  flex: 0 1 44.333%;
   height: 355px;
   border-radius: 24px;
-  overflow: hidden;
-  margin-right: 55px; }
+  overflow: hidden; }
 
 .promgranit-about__img img {
   max-width: 100%;
@@ -1770,9 +1777,9 @@ body.ie .ibg img {
   object-fit: cover; }
 
 .promgranit-about__descp {
-  -webkit-box-flex: 1;
-  -ms-flex: 1 1 auto;
-  flex: 1 1 auto;
+  -webkit-box-flex: 0;
+  -ms-flex: 0 1 51.8%;
+  flex: 0 1 51.8%;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
@@ -2642,13 +2649,23 @@ body.ie .ibg img {
   .how-work__actions {
     margin-right: 15px; }
   .sell-pass-info {
-    background-position: 80% 0; } }
+    background-position: 80% 0; }
+  .promgranit-about__descp {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 54%;
+    flex: 0 1 54%; } }
 
 @media (max-width: 1360px) {
   .info__block-tabs .tab__navitem {
     -webkit-box-flex: 0;
     -ms-flex: 0 1 25%;
     flex: 0 1 25%; } }
+
+@media (max-width: 1300px) {
+  .promgranit-about__descp-icons-item {
+    padding: 20px 15px; }
+  .promgranit-about__descp-icons-item-text:before {
+    margin-right: 15px; } }
 
 @media (max-width: 1280px) {
   .info__form-block-sel {
@@ -2667,7 +2684,15 @@ body.ie .ibg img {
   .product-info__wrap-card .hot-deals__card .hot-deals__card-descp {
     padding: 25px 15px; }
   .product-info__wrap-card .hot-deals__card .hot-deals__card-link {
-    font-size: 14px; } }
+    font-size: 14px; }
+  .promgranit-about__img {
+    height: auto; }
+  .promgranit-about__descp {
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start; }
+  .promgranit-about__descp-icons {
+    margin-top: 10px; } }
 
 @media (max-width: 1200px) {
   .topical__position {
@@ -2698,7 +2723,21 @@ body.ie .ibg img {
   .page-recurring {
     padding-bottom: 35px; }
   .how-work__actions .actions-item-text {
-    padding: 10px 23px; } }
+    padding: 10px 23px; }
+  .promgranit-about__img {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 43%;
+    flex: 0 1 43%; }
+  .promgranit-about__descp {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 55.5%;
+    flex: 0 1 55.5%; }
+  .promgranit-about__descp-icons-item-text {
+    font-size: 14px;
+    line-height: 1.2; }
+  .promgranit-about__descp-icons-item-text:before {
+    background-size: 85%;
+    margin-right: 10px; } }
 
 @media (max-width: 1150px) {
   .advant__row {
@@ -2719,7 +2758,11 @@ body.ie .ibg img {
     -ms-flex: 1 1 auto;
     flex: 1 1 auto; }
   .how-work__actions .actions-item-text {
-    font-size: 22px; } }
+    font-size: 22px; }
+  .promgranit-about__descp-icons-item {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 32.6%;
+    flex: 0 1 32.6%; } }
 
 @media (max-width: 1050px) {
   .sell-pass-info__text {
@@ -2763,7 +2806,22 @@ body.ie .ibg img {
   .product-info__map {
     height: 350px; }
   .how-work__actions .actions-item-text {
-    padding: 10px 23px 10px 15px; } }
+    padding: 10px 23px 10px 15px; }
+  .promgranit-about {
+    padding-bottom: 45px; }
+  .promgranit-about__img {
+    margin-right: 10px; }
+  .promgranit-about__descp-icons-item {
+    padding: 15px; }
+  .promgranit-about__descp-icons-item-text:before {
+    background-size: 80%;
+    margin-right: 3px; }
+  .promgranit-about__descp {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 60%;
+    flex: 0 1 60%; }
+  .promgranit-about h2 {
+    margin-bottom: 25px !important; } }
 
 @media (max-width: 1000px) {
   .info__form-block-col {
@@ -2788,7 +2846,11 @@ body.ie .ibg img {
     font-size: 18px; }
   .topical__card img {
     width: 100%;
-    height: 100%; } }
+    height: 100%; }
+  .promgranit-about__img {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 38%;
+    flex: 0 1 38%; } }
 
 @media (max-width: 930px) {
   .header__nav-block {
@@ -2803,7 +2865,11 @@ body.ie .ibg img {
   .header__callback {
     margin-right: 20px; }
   .topical__position {
-    padding: 35px 100px; } }
+    padding: 35px 100px; }
+  .promgranit-about__descp {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 68%;
+    flex: 0 1 68%; } }
 
 @media (max-width: 900px) {
   .topical__position {
@@ -2812,7 +2878,21 @@ body.ie .ibg img {
     background-image: none;
     background-color: #00000035; }
   .topical__position p {
-    font-size: 28px; } }
+    font-size: 28px; }
+  .promgranit-about__img {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 65%;
+    flex: 0 1 65%; }
+  .promgranit-about__descp-icons {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap; }
+  .promgranit-about__descp-icons-item {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 49%;
+    flex: 0 1 49%;
+    margin-bottom: 10px; }
+  .promgranit-about__descp-icons-item:last-child {
+    margin-bottom: 0; } }
 
 @media (max-width: 830px) {
   .sell-pass-info__form-btn {
@@ -2845,7 +2925,10 @@ body.ie .ibg img {
   .product-info__wrap-card .hot-deals__card {
     -webkit-box-flex: 0;
     -ms-flex: 0 1 33%;
-    flex: 0 1 33%; } }
+    flex: 0 1 33%; }
+  .promgranit-about__img img {
+    -o-object-position: right;
+    object-position: right; } }
 
 @media (max-width: 768px) {
   .header {
@@ -3233,7 +3316,50 @@ body.ie .ibg img {
     margin-bottom: 25px; }
   .page h2 {
     font-size: 24px;
-    line-height: 1; } }
+    line-height: 1; }
+  .promgranit-about__img {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 66%;
+    flex: 0 1 66%; }
+  .promgranit-about__text p {
+    font-size: 14px;
+    line-height: 1.3;
+    margin-bottom: 5px; }
+  .promgranit-about__descp-icons {
+    width: auto;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    overflow-x: auto; }
+  .promgranit-about__descp-icons::-webkit-scrollbar {
+    display: none; }
+  .promgranit-about__descp-icons-item {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 43%;
+    flex: 0 0 43%;
+    padding: 10px;
+    border-radius: 20px;
+    margin-right: 10px;
+    margin-bottom: 0; }
+  .promgranit-about__descp-icons-item:last-child {
+    margin-right: 0; }
+  .promgranit-about__descp-icons-item-text {
+    font-size: 12px;
+    line-height: 1; }
+  .promgranit-about__descp-icons-item-text:before {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 30px;
+    flex: 0 0 30px;
+    height: 25px;
+    background-size: 85%;
+    margin-right: 3px; }
+  .floor-plan__img img {
+    max-width: 80%; }
+  .promgranit-info .nuar_blk {
+    display: block; }
+  .interior {
+    padding: 20px; }
+  .interior h2 {
+    margin-bottom: 25px; } }
 
 @media (max-width: 700px) {
   .mob-menu {
@@ -3320,11 +3446,44 @@ body.ie .ibg img {
   .how-work__actions {
     margin-right: 0; }
   .how-work__actions {
-    margin-bottom: 15px; } }
+    margin-bottom: 15px; }
+  .promgranit-about__row {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+  .promgranit-about__img {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 100%;
+    flex: 0 1 100%;
+    margin-right: 0;
+    margin-bottom: 10px; }
+  .promgranit-about__descp {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 100%;
+    flex: 0 1 100%; }
+  .promgranit-about__descp-icons {
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start; }
+  .promgranit-about__descp-icons-item {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 28%;
+    flex: 0 0 28%; }
+  .promgranit-about__descp-icons-item-text {
+    font-size: 13px;
+    line-height: 1.3; } }
 
 @media (max-width: 600px) {
   .footer__contact .header__soc-block {
     display: block; } }
+
+@media (max-width: 560px) {
+  .promgranit-about__descp-icons-item {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 33%;
+    flex: 0 0 33%; } }
 
 @media (max-width: 540px) {
   .advant__item {
@@ -3350,7 +3509,9 @@ body.ie .ibg img {
   .product-info__wrap-card .hot-deals__card {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 65%;
-    flex: 0 0 65%; } }
+    flex: 0 0 65%; }
+  .floor-plan__img img {
+    max-width: 100%; } }
 
 @media (max-width: 515px) {
   .info {
@@ -3430,7 +3591,9 @@ body.ie .ibg img {
   .how-work {
     padding-bottom: 15px; }
   .how-work__actions .actions-arrow-icon::after {
-    background-size: 80%; } }
+    background-size: 80%; }
+  .promgranit-about {
+    padding-bottom: 25px; } }
 
 @media (max-width: 480px) {
   .consult-form__form-input {
@@ -3449,7 +3612,13 @@ body.ie .ibg img {
     margin-bottom: 20px; }
   .team__card-img img {
     -o-object-fit: cover;
-    object-fit: cover; } }
+    object-fit: cover; }
+  .promgranit-about__descp-icons-item {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 38%;
+    flex: 0 0 38%; }
+  .promgranit-about__text p {
+    text-align: justify; } }
 
 @media (max-width: 460px) {
   .header__callback {
@@ -3494,7 +3663,11 @@ body.ie .ibg img {
     flex: 0 0 60%; }
   .sell-pass-info__text h1 {
     font-size: 28px;
-    line-height: 30px; } }
+    line-height: 30px; }
+  .promgranit-about__descp-icons-item {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 43%;
+    flex: 0 0 43%; } }
 
 @media (max-width: 380px) {
   .reviews__card {
@@ -3508,7 +3681,11 @@ body.ie .ibg img {
   .info__block-tabs {
     padding: 20px 10px 35px 10px; }
   .info__block-tabs .tab__navitem {
-    font-size: 14px; } }
+    font-size: 14px; }
+  .promgranit-about__descp-icons-item {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 46%;
+    flex: 0 0 46%; } }
 
 @media (max-width: 360px) {
   .info h1 {
@@ -3524,10 +3701,16 @@ body.ie .ibg img {
     -ms-flex: 0 0 70%;
     flex: 0 0 70%; }
   .product-info__wrap-card .hot-deals__card .hot-deals__card-link {
+    font-size: 12px; }
+  .promgranit-about__descp-icons-item {
+    padding: 5px 8px; }
+  .promgranit-about__descp-icons-item-text {
     font-size: 12px; } }
 
 @media (max-width: 340px) {
   .sell-pass-info__form-btn {
     font-size: 13px; }
   .how-work__actions .actions-item-text {
-    padding: 5px 15px 5px 10px; } }
+    padding: 5px 15px 5px 10px; }
+  .promgranit-about__descp-icons-item {
+    padding: 5px; } }

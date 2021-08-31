@@ -2,6 +2,10 @@
   background-image: url('../img/promgranit-bg.jpg');
 }
 
+.promgranit-info .nuar_blk {
+  display: none;
+}
+
 .promgranit-info .sell-pass-info__text h1 {
   max-width: 616px;
 }
@@ -15,15 +19,14 @@
 }
 
 .promgranit-about__row {
-  // justify-content: space-between;
+  justify-content: space-between;
 }
 
 .promgranit-about__img {
-  flex: 0 0 638px;
+  flex: 0 1 44.333%;
   height: 355px;
   border-radius: 24px;
   overflow: hidden;
-  margin-right: 55px;
 }
 
 .promgranit-about__img img {
@@ -34,7 +37,7 @@
 }
 
 .promgranit-about__descp {
-  flex: 1 1 auto;
+  flex: 0 1 51.8%;
   flex-direction: column;
   justify-content: space-between;
 }

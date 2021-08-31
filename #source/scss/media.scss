@@ -17,11 +17,20 @@
 		margin-right: 15px;}
 	.sell-pass-info {
 		background-position: 80% 0;}
+	.promgranit-about__descp {
+		flex: 0 1 54%;}
 }
 
 @media (max-width: 1360px) {
 	.info__block-tabs .tab__navitem {
     flex: 0 1 25%; }
+}
+
+@media (max-width: 1300px) {
+	.promgranit-about__descp-icons-item {
+    padding: 20px 15px;}
+	.promgranit-about__descp-icons-item-text:before {
+		margin-right: 15px;}
 }
 
 @media (max-width: 1280px) {
@@ -39,7 +48,13 @@
 	.product-info__wrap-card .hot-deals__card	.hot-deals__card-descp {
 		padding: 25px 15px;}
 	.product-info__wrap-card .hot-deals__card	.hot-deals__card-link {
-			font-size: 14px;}
+		font-size: 14px;}
+	.promgranit-about__img {
+		height: auto;}
+	.promgranit-about__descp {
+		justify-content: flex-start;}
+	.promgranit-about__descp-icons {
+		margin-top: 10px;}
 }
 
 @media (max-width: 1200px) {
@@ -65,6 +80,16 @@
 		padding-bottom: 35px;}
 	.how-work__actions .actions-item-text {
 		padding: 10px 23px;}
+	.promgranit-about__img {
+		flex: 0 1 43%;}
+	.promgranit-about__descp {
+		flex: 0 1 55.5%;}
+	.promgranit-about__descp-icons-item-text {
+		font-size: 14px;
+		line-height: 1.2;}
+	.promgranit-about__descp-icons-item-text:before {
+		background-size: 85%;
+		margin-right: 10px;}
 }
 
 @media (max-width: 1150px) {
@@ -83,6 +108,8 @@
 		flex: 1 1 auto; }
 	.how-work__actions .actions-item-text {
 		font-size: 22px;}
+	.promgranit-about__descp-icons-item {
+		flex: 0 1 32.6%;}
 }
 
 @media (max-width: 1050px) {
@@ -125,6 +152,19 @@
 		height: 350px;}
 	.how-work__actions .actions-item-text {
 		padding: 10px 23px 10px 15px;}
+	.promgranit-about {
+		padding-bottom: 45px;}
+	.promgranit-about__img {
+		margin-right: 10px;}
+	.promgranit-about__descp-icons-item {
+		padding: 15px;}
+	.promgranit-about__descp-icons-item-text:before {
+		background-size: 80%;
+		margin-right: 3px;}
+	.promgranit-about__descp {
+		flex: 0 1 60%;}
+	.promgranit-about h2 {
+		margin-bottom: 25px !important;}
 }
 
 @media (max-width: 1000px) {
@@ -148,6 +188,8 @@
 	.topical__card img {
 		width: 100%;
 		height: 100%;}
+	.promgranit-about__img {
+		flex: 0 1 38%;}
 }
 
 @media (max-width: 930px) {
@@ -160,6 +202,8 @@
 		margin-right: 20px; }
 	.topical__position {
 		padding: 35px 100px; }
+	.promgranit-about__descp {
+		flex: 0 1 68%;}
 }
 
 @media (max-width: 900px) {
@@ -171,6 +215,15 @@
 	}
 	.topical__position p {
 		font-size: 28px; }
+	.promgranit-about__img {
+		flex: 0 1 65%;}
+	.promgranit-about__descp-icons {
+		flex-wrap: wrap;}
+	.promgranit-about__descp-icons-item {
+		flex: 0 1 49%;
+		margin-bottom: 10px;}
+	.promgranit-about__descp-icons-item:last-child {
+		margin-bottom: 0;}
 }
 
 @media (max-width: 830px) {
@@ -197,6 +250,8 @@
 		object-fit: fill; }
 	.product-info__wrap-card .hot-deals__card {
 		flex: 0 1 33%;}
+	.promgranit-about__img img {
+		object-position: right;}
 }
 
 @media (max-width: 768px) {
@@ -561,6 +616,42 @@
 	.page h2 {
 		font-size: 24px;
 		line-height: 1;}
+	.promgranit-about__img {
+		flex: 0 1 66%;}
+	.promgranit-about__text p {
+		font-size: 14px;
+		line-height: 1.3;
+		margin-bottom: 5px;}
+	.promgranit-about__descp-icons {
+		width: auto;
+		flex-wrap: nowrap;
+		overflow-x: auto;}
+	.promgranit-about__descp-icons::-webkit-scrollbar {
+		display: none;}
+	.promgranit-about__descp-icons-item {
+		flex: 0 0 43%;
+		padding: 10px;
+		border-radius: 20px;
+		margin-right: 10px;
+		margin-bottom: 0;}
+	.promgranit-about__descp-icons-item:last-child {
+		margin-right: 0;}
+	.promgranit-about__descp-icons-item-text {
+		font-size: 12px;
+		line-height: 1;}
+	.promgranit-about__descp-icons-item-text:before {
+		flex: 0 0 30px;
+    height: 25px;
+		background-size: 85%;
+		margin-right: 3px;}
+	.floor-plan__img img {
+		max-width: 80%;}
+	.promgranit-info .nuar_blk {
+			display: block;}
+	.interior {
+		padding: 20px;}
+	.interior h2 {
+		margin-bottom: 25px;}
 }
 
 @media (max-width: 700px) {
@@ -628,11 +719,32 @@
 		margin-right: 0;}
 	.how-work__actions {
 		margin-bottom: 15px;}
+	.promgranit-about__row {
+		flex-wrap: wrap;
+		justify-content: center;}
+	.promgranit-about__img {
+		flex: 0 1 100%;
+		margin-right: 0;
+		margin-bottom: 10px;}
+	.promgranit-about__descp {
+		flex: 0 1 100%;}
+	.promgranit-about__descp-icons {
+		justify-content: flex-start;}
+	.promgranit-about__descp-icons-item {
+		flex: 0 0 28%;}
+	.promgranit-about__descp-icons-item-text {
+		font-size: 13px;
+		line-height: 1.3;}
 }
 
 @media (max-width: 600px) {
 	.footer__contact .header__soc-block {
 		display: block; }
+}
+
+@media (max-width: 560px) {
+	.promgranit-about__descp-icons-item {
+    flex: 0 0 33%;}
 }
 
 @media (max-width: 540px) {
@@ -649,6 +761,8 @@
 		display: block;}
 	.product-info__wrap-card .hot-deals__card {
 		flex: 0 0 65%;}
+	.floor-plan__img img {
+		max-width: 100%;}
 }
 
 @media (max-width: 515px) {
@@ -710,6 +824,8 @@
 		padding-bottom: 15px;}
 	.how-work__actions .actions-arrow-icon::after {
 		background-size: 80%;}
+	.promgranit-about {
+		padding-bottom: 25px;}
 }
 
 @media (max-width: 480px) {
@@ -725,6 +841,10 @@
 		margin-bottom: 20px;}
 	.team__card-img img {
 		object-fit: cover;}
+	.promgranit-about__descp-icons-item {
+		flex: 0 0 38%;}
+	.promgranit-about__text p {
+		text-align: justify;}
 }
 
 @media (max-width: 460px) {
@@ -765,6 +885,8 @@
 	.sell-pass-info__text h1 {
 		font-size: 28px;
 		line-height: 30px;}
+	.promgranit-about__descp-icons-item {
+		flex: 0 0 43%;}
 }
 
 @media (max-width: 380px) {
@@ -778,6 +900,8 @@
 		padding: 20px 10px 35px 10px;}
 	.info__block-tabs .tab__navitem {
 		font-size: 14px;}
+	.promgranit-about__descp-icons-item {
+		flex: 0 0 46%;}
 }
 
 @media (max-width: 360px) {
@@ -793,6 +917,10 @@
 		flex: 0 0 70%;} 
 	.product-info__wrap-card .hot-deals__card .hot-deals__card-link {
 		font-size: 12px;}
+	.promgranit-about__descp-icons-item {
+		padding: 5px 8px;}
+	.promgranit-about__descp-icons-item-text {
+		font-size: 12px;}
 }
 
 @media (max-width: 340px) {
@@ -800,4 +928,6 @@
 		font-size: 13px;}
 	.how-work__actions .actions-item-text {
 		padding: 5px 15px 5px 10px;}
+	.promgranit-about__descp-icons-item {
+	padding: 5px;}
 }
